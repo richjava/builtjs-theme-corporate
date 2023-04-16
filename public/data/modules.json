@@ -57,7 +57,7 @@
     },
     {
       "slug": "blog",
-      "repoName": "builtjs/builtjs-plugin-blog",
+      "repoName": "richjava/builtjs-plugin-blog",
       "version": "1.0.0"
     },
     {

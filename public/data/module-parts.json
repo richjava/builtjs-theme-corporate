@@ -28,7 +28,10 @@
           "slug": "contact-teaser",
           "position": 4
         }
-      ]
+      ],
+      "requiredModule": {
+        "slug": "contact"
+      }
     },
     {
       "slug": "home-base",

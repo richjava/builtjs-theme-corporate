@@ -32,7 +32,14 @@
     ],
     "deps": {
       "frontend": {
-        "project": ["nextjs", "tailwind"],
+        "project": {
+          "main": {
+            "name": "nextjs"
+          },
+          "css": {
+            "name": "tailwind"
+          }
+        },
         "node": {
           "dependencies": {
             "@fisch0920/use-dark-mode": "^2.4.0"
@@ -45,18 +52,12 @@
         }
       },
       "backend": {
-        "project": ["strapi"],
-        "node": {
-          "dependencies": {
-            "@fisch0920/use-dark-mode": "^2.4.0"
-          },
-          "devDependencies": {
-            "autoprefixer": "^10.4.8",
-            "postcss": "^8.4.16",
-            "tailwindcss": "^3.1.8"
+        "project": {
+          "main": {
+            "name": "strapi"
           }
         }
       }
-    } 
+    }
   }
 }

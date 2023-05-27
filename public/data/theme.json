@@ -34,7 +34,10 @@
       "frontend": {
         "project": {
           "main": {
-            "name": "nextjs"
+            "name": "nextjs",
+            "config": {
+              "router": "pages"
+            }
           },
           "css": {
             "name": "tailwind"

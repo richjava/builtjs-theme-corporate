@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": 1,
+      "id": "author-eb4f3b3c-04ed-4e08-b8fb-6b7db6efcb80",
       "attributes": {
         "slug": "bob-brown",
         "fullName": "Bob Brown",
@@ -24,7 +24,7 @@
       "status": "published"
     },
     {
-      "id": 2,
+      "id": "author-eb4f3b3c-04ed-4e08-b8fb-6b7db6efcb81",
       "attributes": {
         "slug": "mary-maloney",
         "fullName": "Mary Maloney",
@@ -47,7 +47,7 @@
       "status": "published"
     },
     {
-      "id": 3,
+      "id": "author-eb4f3b3c-04ed-4e08-b8fb-6b7db6efcb82",
       "attributes": {
         "slug": "joe-bloggs",
         "fullName": "Joe Bloggs",

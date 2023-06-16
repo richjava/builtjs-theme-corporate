@@ -46,7 +46,7 @@ export default function List2({ content }: any) {
                   <Preheading
                     attributes={item.attributes.preheading}
                   ></Preheading>
-                  <h2>{item.attributes.title}</h2>
+                  <h2>{item.attributes.heading}</h2>
                   <p className="mb-12">{item.attributes.blurb}</p>
                   {item.attributes.buttonLinks &&
                     item.attributes.buttonLinks.map((button: any) => {

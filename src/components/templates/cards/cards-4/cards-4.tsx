@@ -28,7 +28,7 @@ export default function Cards4({ content }: any) {
                 <Preheading
                   attributes={item.attributes.preheading}
                 ></Preheading>
-                <h3 className="mb-4">{item.attributes.title}</h3>
+                <h3 className="mb-4">{item.attributes.heading}</h3>
                 <p className="mb-10">{item.attributes.blurb}</p>
                 {item.attributes.buttonLinks &&
                   item.attributes.buttonLinks.map((button: any) => {

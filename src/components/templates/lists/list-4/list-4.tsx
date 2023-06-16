@@ -57,7 +57,7 @@ export default function List4({ content }: any) {
               </div>
               <Link className="no-underline" href={url}>
                 <h2 className="hover:text-gray-700 dark:hover:text-gray-200">
-                  {heroPost.attributes.title}
+                  {heroPost.attributes.heading}
                 </h2>
               </Link>
               <p className="mb-10 text-lg">{heroPost.attributes.blurb}</p>

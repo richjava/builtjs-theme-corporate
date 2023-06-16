@@ -43,7 +43,7 @@ export default function List5({ content, router }: any) {
                           }`}
                           layout="fill"
                           objectFit="cover"
-                          alt={item.attributes.title}
+                          alt={item.attributes.heading}
                         />
                       </div>
                     </Link>
@@ -71,7 +71,7 @@ export default function List5({ content, router }: any) {
                       href={`/${collectionName}/${item.attributes.slug}`}
                     >
                       <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">
-                        {item.attributes.title}
+                        {item.attributes.heading}
                       </h3>
                     </Link>
                     <p>{item.blurb}</p>

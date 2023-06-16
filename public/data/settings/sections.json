@@ -43,6 +43,9 @@
           "title": {
             "type": "string"
           },
+          "pageTitle": {
+            "type": "string"
+          },
           "description": {
             "type": "text"
           },
@@ -74,6 +77,9 @@
         },
         "attributes": {
           "title": {
+            "type": "string"
+          },
+          "pageTitle": {
             "type": "string"
           },
           "description": {
@@ -109,6 +115,9 @@
           "title": {
             "type": "string"
           },
+          "pageTitle": {
+            "type": "string"
+          },
           "description": {
             "type": "text"
           },
@@ -142,6 +151,9 @@
           "title": {
             "type": "string"
           },
+          "pageTitle": {
+            "type": "string"
+          },
           "description": {
             "type": "text"
           },
@@ -169,12 +181,15 @@
         "collectionName": "components_sections_main_landing",
         "info": { "displayName": "Main landing", "icon": "heading" },
         "attributes": {
+          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": { "type": "string" },
+          "heading": {
+            "type": "string"
+          },
           "blurb": { "type": "text" },
           "image": {
             "allowedTypes": [
@@ -199,12 +214,15 @@
         "collectionName": "components_sections_contact_landing",
         "info": { "displayName": "Contact landing", "icon": "heading" },
         "attributes": {
+          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": { "type": "string" },
+          "heading": {
+            "type": "string"
+          },
           "blurb": { "type": "text" },
           "contextualLinks": {
             "type": "component",
@@ -242,12 +260,13 @@
         "collectionName": "components_sections_contact_teaser",
         "info": { "displayName": "Contact Teaser", "icon": "heading" },
         "attributes": {
+          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": { "type": "string" },
+          "heading": { "type": "string" },
           "buttonLinks": {
             "type": "component",
             "repeatable": true,
@@ -266,12 +285,13 @@
         "collectionName": "components_sections_home_about_teaser",
         "info": { "displayName": "About Teaser", "icon": "heading" },
         "attributes": {
+          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": { "type": "string" },
+          "heading": { "type": "string" },
           "blurb1": { "type": "text" },
           "blurb2": { "type": "text" },
           "buttonLinks": {
@@ -289,12 +309,13 @@
         "collectionName": "components_sections_team",
         "info": { "displayName": "Team", "icon": "heading" },
         "attributes": {
+          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": { "type": "string" },
+          "heading": { "type": "string" },
           "blurb1": { "type": "text" },
           "blurb2": { "type": "text" },
           "buttonLinks": {
@@ -311,7 +332,9 @@
       "settings": {
         "collectionName": "components_sections_benefits_list",
         "info": { "displayName": "Benefits", "icon": "heading" },
-        "attributes": {}
+        "attributes": {
+          "title": { "type": "string" }
+        }
       }
     },
     "services-landing": {
@@ -321,12 +344,13 @@
         "collectionName": "components_sections_services_landing",
         "info": { "displayName": "Services Landing", "icon": "heading" },
         "attributes": {
+          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": { "type": "string" },
+          "heading": { "type": "string" },
           "blurb": { "type": "text" },
           "image": {
             "allowedTypes": [
@@ -349,12 +373,13 @@
           "icon": "robot"
         },
         "attributes": {
+          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": {
+          "heading": {
             "type": "string"
           },
           "blurb1": {
@@ -384,12 +409,13 @@
           "icon": "robot"
         },
         "attributes": {
+          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": { "type": "string" },
+          "heading": { "type": "string" },
           "blurb": {
             "type": "text"
           },
@@ -420,6 +446,7 @@
         },
         "attributes": {
           "title": { "type": "string" },
+          "heading": { "type": "string" },
           "blurb1": {
             "type": "text"
           },

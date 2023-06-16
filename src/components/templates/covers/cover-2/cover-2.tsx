@@ -21,12 +21,12 @@ export default function Cover2({ content }: any) {
               height={attributes.image.data.attributes.height}
               layout="responsive"
               objectFit="cover"
-              alt={attributes.title}
+              alt={attributes.heading}
             />
           </div>
           <div className="px-4 pt-10 pb-20 lg:py-40">
             <Preheading attributes={attributes.preheading}></Preheading>
-            <h1>{attributes.title}</h1>
+            <h1>{attributes.heading}</h1>
             <p className="mb-12 text-lg">{attributes.blurb}</p>
             {attributes.buttonLinks &&
               attributes.buttonLinks.map((button: any) => {

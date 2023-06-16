@@ -11,11 +11,11 @@ export default function Seo( {content}:any ) {
     <>
       {attributes && (
         <Head>
-          {attributes.title && (
+          {attributes.pageTitle && (
             <>
-              <title>{attributes.title}</title>
-              <meta property="og:title" content={attributes.title} />
-              <meta name="twitter:title" content={attributes.title} />
+              <title>{attributes.pageTitle}</title>
+              <meta property="og:title" content={attributes.pageTitle} />
+              <meta name="twitter:title" content={attributes.pageTitle} />
             </>
           )}
           {attributes.description && (

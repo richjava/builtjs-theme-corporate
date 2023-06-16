@@ -13,7 +13,7 @@ export default function Cover4({ content }: any) {
         <div className="w-full max-w-screen-xl px-4 py-20 mx-auto ">
           <div className="pb-24 text-center">
             <Preheading attributes={attributes.preheading}></Preheading>
-            <h1 className="max-w-5xl mx-auto">{attributes.title}</h1>
+            <h1 className="max-w-5xl mx-auto">{attributes.heading}</h1>
             <p className="max-w-xl mx-auto mb-12 text-lg">{attributes.blurb}</p>
             {attributes.buttonLinks &&
               attributes.buttonLinks.map((button: any) => {
@@ -33,7 +33,7 @@ export default function Cover4({ content }: any) {
               width={attributes.image.data.attributes.width}
               height={attributes.image.data.attributes.height}
               layout="responsive"
-              alt={attributes.title}
+              alt={attributes.heading}
             />
           </div>
         </div>

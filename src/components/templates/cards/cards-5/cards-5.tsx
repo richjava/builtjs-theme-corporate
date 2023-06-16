@@ -49,7 +49,7 @@ export default function Cards5({ content }: any) {
                     href={`/${collectionName}/${item.attributes.slug}`}
                   >
                     <h3 className="mb-4 hover:text-gray-700 dark:hover:text-gray-200">
-                      {item.attributes.title}
+                      {item.attributes.heading}
                     </h3>
                   </Link>
                   <p>{item.attributes.blurb}</p>

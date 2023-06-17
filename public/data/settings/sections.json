@@ -40,9 +40,6 @@
           "icon": "robot"
         },
         "attributes": {
-          "title": {
-            "type": "string"
-          },
           "pageTitle": {
             "type": "string"
           },
@@ -76,9 +73,6 @@
           "icon": "robot"
         },
         "attributes": {
-          "title": {
-            "type": "string"
-          },
           "pageTitle": {
             "type": "string"
           },
@@ -112,9 +106,6 @@
           "icon": "robot"
         },
         "attributes": {
-          "title": {
-            "type": "string"
-          },
           "pageTitle": {
             "type": "string"
           },
@@ -148,9 +139,6 @@
           "icon": "robot"
         },
         "attributes": {
-          "title": {
-            "type": "string"
-          },
           "pageTitle": {
             "type": "string"
           },
@@ -181,7 +169,6 @@
         "collectionName": "components_sections_main_landing",
         "info": { "displayName": "Main landing", "icon": "heading" },
         "attributes": {
-          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -214,7 +201,6 @@
         "collectionName": "components_sections_contact_landing",
         "info": { "displayName": "Contact landing", "icon": "heading" },
         "attributes": {
-          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -249,7 +235,6 @@
         "collectionName": "components_sections_features_list",
         "info": { "displayName": "Features", "icon": "heading" },
         "attributes": {
-          "title": { "type": "string" }
         }
       }
     },
@@ -260,7 +245,6 @@
         "collectionName": "components_sections_contact_teaser",
         "info": { "displayName": "Contact Teaser", "icon": "heading" },
         "attributes": {
-          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -285,7 +269,6 @@
         "collectionName": "components_sections_home_about_teaser",
         "info": { "displayName": "About Teaser", "icon": "heading" },
         "attributes": {
-          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -309,7 +292,6 @@
         "collectionName": "components_sections_team",
         "info": { "displayName": "Team", "icon": "heading" },
         "attributes": {
-          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -333,7 +315,6 @@
         "collectionName": "components_sections_benefits_list",
         "info": { "displayName": "Benefits", "icon": "heading" },
         "attributes": {
-          "title": { "type": "string" }
         }
       }
     },
@@ -344,7 +325,6 @@
         "collectionName": "components_sections_services_landing",
         "info": { "displayName": "Services Landing", "icon": "heading" },
         "attributes": {
-          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -373,7 +353,6 @@
           "icon": "robot"
         },
         "attributes": {
-          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -409,7 +388,6 @@
           "icon": "robot"
         },
         "attributes": {
-          "title": { "type": "string" },
           "preheading": {
             "type": "component",
             "repeatable": false,
@@ -445,7 +423,6 @@
           "icon": "robot"
         },
         "attributes": {
-          "title": { "type": "string" },
           "heading": { "type": "string" },
           "blurb1": {
             "type": "text"

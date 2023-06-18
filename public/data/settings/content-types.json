@@ -251,11 +251,6 @@
           "title": {
             "type": "string"
           },
-          "slug": {
-            "type": "uid",
-            "targetField": "fullName",
-            "required": true
-          },
           "icon": {
             "allowedTypes": [
               "images"

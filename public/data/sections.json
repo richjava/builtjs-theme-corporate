@@ -12,6 +12,7 @@
       },
       "position": "start",
       "attributes": {
+        "title": "Header",
         "buttonLinks": [
           {
             "url": "/contact",
@@ -50,7 +51,8 @@
       "category": "head",
       "type": "head",
       "attributes": {
-        "title": "Home | Corporate Tailwind Built.JS Theme",
+        "title": "Home SEO",
+        "pageTitle": "Home | Corporate Tailwind Built.JS Theme",
         "description": "Home page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
           "data": {
@@ -173,7 +175,8 @@
           "text": "Preheading",
           "type": "dot"
         },
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Home About Teaser",
+        "pageTitle": "Lorem ipsum dolor sit amet",
         "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "buttonLinks": [
@@ -194,7 +197,8 @@
         "slug": "profile-cards-1"
       },
       "attributes": {
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Team",
+        "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident."
       },
       "collections": {
@@ -218,7 +222,8 @@
       "category": "head",
       "type": "head",
       "attributes": {
-        "title": "Services | Corporate Tailwind Built.JS Theme",
+        "title": "Services SEO",
+        "pageTitle": "Services | Corporate Tailwind Built.JS Theme",
         "description": "Services page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
           "data": {
@@ -249,7 +254,8 @@
           "text": "Preheading",
           "type": "plain"
         },
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Services Landing",
+        "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
           "data": {
@@ -290,7 +296,8 @@
           "text": "Preheading",
           "type": "dot"
         },
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Services Block",
+        "pageTitle": "Lorem ipsum dolor sit amet",
         "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "image": {
@@ -324,7 +331,8 @@
       "category": "head",
       "type": "head",
       "attributes": {
-        "title": "About | Corporate Tailwind Built.JS Theme",
+        "title": "About SEO",
+        "pageTitle": "About | Corporate Tailwind Built.JS Theme",
         "description": "About page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
           "data": {
@@ -355,7 +363,8 @@
           "text": "Preheading",
           "type": "line"
         },
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "About Landing",
+        "pageTitle": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
           "data": {
@@ -397,7 +406,8 @@
           "type": "dot",
           "alignment": "center"
         },
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "About Text",
+        "heading": "Lorem ipsum dolor sit amet",
         "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "buttonLinks": [
@@ -431,7 +441,8 @@
       "category": "head",
       "type": "head",
       "attributes": {
-        "title": "Contact | Corporate Tailwind Built.JS Theme",
+        "title": "Contact SEO",
+        "pageTitle": "Contact | Corporate Tailwind Built.JS Theme",
         "description": "Contact page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
           "data": {
@@ -462,7 +473,8 @@
           "text": "Preheading",
           "type": "plain"
         },
-        "title": "Lorem ipsum dolor sit amet",
+        "title": "Contact Landing",
+        "pageTitle": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "button": {
           "label": "Send",

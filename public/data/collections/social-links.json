@@ -3,7 +3,6 @@
     {
       "attributes": {
         "title": "Facebook",
-        "slug": "facebook",
         "icon": {
           "data": {
             "attributes": {
@@ -22,7 +21,6 @@
     {
       "attributes": {
         "title": "Twitter",
-        "slug": "twitter",
         "icon": {
           "data": {
             "attributes": {
@@ -41,7 +39,6 @@
     {
       "attributes": {
         "title": "Instagram",
-        "slug": "instagram",
         "icon": {
           "data": {
             "attributes": {
@@ -60,7 +57,6 @@
     {
       "attributes": {
         "title": "Youtube",
-        "slug": "youtube",
         "icon": {
           "data": {
             "attributes": {

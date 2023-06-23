@@ -110,12 +110,12 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": {
+          "heading": {
             "type": "string"
           },
           "slug": {
             "type": "uid",
-            "targetField": "title",
+            "targetField": "heading",
             "required": true
           },
           "blurb": {
@@ -161,12 +161,12 @@
             "repeatable": false,
             "component": "elements.preheading"
           },
-          "title": {
+          "heading": {
             "type": "string"
           },
           "slug": {
             "type": "uid",
-            "targetField": "title",
+            "targetField": "heading",
             "required": true
           },
           "blurb": {
@@ -207,12 +207,12 @@
           "draftAndPublish": true
         },
         "attributes": {
-          "title": {
+          "heading": {
             "type": "string"
           },
           "slug": {
             "type": "uid",
-            "targetField": "title",
+            "targetField": "heading",
             "required": true
           },
           "description": {
@@ -248,7 +248,7 @@
           "draftAndPublish": true
         },
         "attributes": {
-          "title": {
+          "heading": {
             "type": "string"
           },
           "icon": {

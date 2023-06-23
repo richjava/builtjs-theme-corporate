@@ -1,11 +1,10 @@
 import Image from "next/image";
-import getConfig from "next/config";
-import { ButtonLink, Preheading } from "src/components/elements";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
+import { ButtonLink, Preheading } from "@/components/elements";
 
 export default function Cover1({ content }: any) {
   if (!content) return <></>;
   let { attributes = null } = { ...content };
-  const { publicRuntimeConfig } = getConfig();
 
   return (
     <section id="cover-1" className="p-0 template">
@@ -13,11 +12,9 @@ export default function Cover1({ content }: any) {
         <div className="items-center grid grid-cols-1 gap-x-28 lg:grid-cols-2">
           <div className="px-0 lg:pr-4 lg:order-last">
             <Image
-              src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                attributes?.image?.data.attributes.url
-              }`}
-              width={attributes?.image?.data.attributes.width}
-              height={attributes?.image?.data.attributes.height}
+              src={urlForImage(attributes?.image)}
+              width={widthForImage(attributes?.image)}
+              height={heightForImage(attributes?.image)}
               layout="responsive"
               alt={attributes.heading}
             />

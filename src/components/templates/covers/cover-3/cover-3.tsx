@@ -1,11 +1,10 @@
 import Image from "next/image";
-import getConfig from "next/config";
-import { ButtonLink, Preheading } from "src/components/elements";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
+import { ButtonLink, Preheading } from "@/components/elements";
 
 export default function Cover3({ content }: any) {
   if (!content) return <></>;
   let { attributes = null } = { ...content };
-  const { publicRuntimeConfig } = getConfig();
 
   return (
     <section id="cover-3" className="p-0 template">
@@ -13,9 +12,7 @@ export default function Cover3({ content }: any) {
         <div className="relative py-64 lg:h-full lg:order-last">
           <Image
             className="rounded-none"
-            src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-              attributes?.image?.data.attributes.url
-            }`}
+            src={urlForImage(attributes?.image)}
             layout="fill"
             objectFit="cover"
             alt={attributes.heading}

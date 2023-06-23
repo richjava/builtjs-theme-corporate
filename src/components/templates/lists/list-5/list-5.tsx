@@ -1,13 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import getConfig from "next/config";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 import { format } from "date-fns";
 
 export default function List5({ content, router }: any) {
   if (!content) return <></>;
   console.log({ content });
   const { collections } = content;
-  const { publicRuntimeConfig } = getConfig();
   if (!collections) {
     throw new Error("No template collections");
   }
@@ -36,11 +35,9 @@ export default function List5({ content, router }: any) {
                       href={`/${collectionName}/${item.attributes.slug}`}
                     >
                       <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
-                        <Image
+                        <Image 
                           className="bg-gray-100 rounded-lg"
-                          src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                            item.attributes?.image?.data.attributes.url
-                          }`}
+                          src={urlForImage(item?.attributes?.image)}
                           layout="fill"
                           objectFit="cover"
                           alt={item.attributes.heading}

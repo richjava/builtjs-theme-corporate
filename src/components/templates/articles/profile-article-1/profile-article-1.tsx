@@ -1,5 +1,5 @@
 import Image from "next/image";
-import getConfig from "next/config";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 
 const getHTML = (content:any) => {
   return {
@@ -10,7 +10,6 @@ const getHTML = (content:any) => {
 export default function ProfileArticle1({ content }:any) {
   if (!content) return <></>;
   let { item = null } = { ...content };
-  const { publicRuntimeConfig } = getConfig();
   return (
     <article id="profile-article-1" className="template">
       {item && (
@@ -25,11 +24,9 @@ export default function ProfileArticle1({ content }:any) {
           </header>
           <div className="relative mb-20">
             <Image
-              src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                item.attributes?.profileImage?.data.attributes.url
-              }`}
-              width={item.attributes.profileImage.data.attributes.width}
-              height={item.attributes.profileImage.data.attributes.height}
+              src={urlForImage(item.attributes?.profileImage)}
+              width={widthForImage(item.attributes?.profileImage)}
+              height={heightForImage(item.attributes?.profileImage)}
               layout="responsive"
               alt={item.attributes.fullName}
             />

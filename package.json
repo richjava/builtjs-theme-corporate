@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@builtjs/theme": "^1.1.68",
+    "@builtjs/theme": "^1.1.71",
     "@fisch0920/use-dark-mode": "^2.4.0",
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",

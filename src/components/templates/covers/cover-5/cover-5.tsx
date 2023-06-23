@@ -1,12 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import getConfig from "next/config";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 import { ButtonLink, Preheading } from "src/components/elements";
 
 export default function Cover5({ content }: any) {
   if (!content) return <></>;
   let { attributes = null } = { ...content };
-  const { publicRuntimeConfig } = getConfig();
 
   return (
     <section id="cover-5" className="p-0 template">
@@ -14,9 +13,7 @@ export default function Cover5({ content }: any) {
         <div className="absolute top-0 left-0 w-full h-full">
           <Image
             className="rounded-none"
-            src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-              attributes?.image?.data.attributes.url
-            }`}
+            src={urlForImage(attributes?.image)}
             layout="fill"
             objectFit="cover"
             alt={attributes.heading}

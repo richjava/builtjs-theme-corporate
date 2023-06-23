@@ -1,12 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import getConfig from "next/config";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 
 export default function Cards5({ content }: any) {
   if (!content) return <></>;
   let { collections = null } = { ...content };
   let data: any = null;
-  const { publicRuntimeConfig } = getConfig();
   const DEFAULT_COLS = 3;
   const cols = (data && data.columns) || DEFAULT_COLS;
   if (!collections) {
@@ -34,12 +33,10 @@ export default function Cards5({ content }: any) {
                   <div className="relative w-full h-56 transition-opacity rounded-b-none hover:opacity-80">
                     <Image
                       className="rounded-b-none"
-                      src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                        item.attributes?.image?.data.attributes.url
-                      }`}
+                      src={urlForImage(item.attributes?.image)}
                       layout="fill"
                       objectFit="cover"
-                      alt=""
+                      alt={item.attributes.heading}
                     />
                   </div>
                 </Link>

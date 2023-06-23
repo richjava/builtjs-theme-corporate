@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import getConfig from "next/config";
-import { Preheading } from "src/components/elements";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
+import { Preheading } from "@/components/elements";
 
 export default function ProfileCards1({ content }: any) {
   if (!content) return <></>;
   let { collections = null } = { ...content };
   let data: any = null;
-  const { publicRuntimeConfig } = getConfig();
   const DEFAULT_COLS = 3;
   const cols = (data && data.columns) || DEFAULT_COLS;
   if (!collections) {
@@ -35,9 +34,7 @@ export default function ProfileCards1({ content }: any) {
                   <div className="relative w-full h-56 transition-opacity rounded-b-none hover:opacity-80">
                     <Image
                       className="rounded-b-none"
-                      src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                        item.attributes?.profileImage?.data.attributes.url
-                      }`}
+                      src={urlForImage(item.attributes?.profileImage)}
                       layout="fill"
                       objectFit="cover"
                       alt={item.attributes.fullName}

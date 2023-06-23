@@ -1,16 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import getConfig from "next/config";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 
 export default function SocialLink({ attributes }:any) {
   if (!attributes) return <></>;
-  const { publicRuntimeConfig } = getConfig();
   return (
     <Link key={attributes.url} href={attributes.url}>
         <Image
-          height={attributes?.icon?.data.attributes.height || '24px'}
-          width={attributes?.icon?.data.attributes.width || '24px'}
-          src={`${publicRuntimeConfig.BACKEND_URL || ""}${attributes?.icon?.data.attributes.url}`}
+          height={heightForImage(attributes?.icon)}
+          width={widthForImage(attributes?.icon)}
+          src={urlForImage(attributes?.icon)}
           alt={attributes.slug}
         />
     </Link>

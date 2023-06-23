@@ -1,11 +1,10 @@
 import Image from "next/image";
-import getConfig from "next/config";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 import { ButtonLink, Preheading } from "src/components/elements";
 
 export default function List2({ content }: any) {
   if (!content) return <></>;
   let { collections = null } = { ...content };
-  const { publicRuntimeConfig } = getConfig();
   if (!collections) {
     throw new Error(
       `No collections attribute provided in sections.json for template`
@@ -31,13 +30,11 @@ export default function List2({ content }: any) {
                 <div className={`${i % 2 !== 0 ? "" : "lg:order-last"}`}>
                   <div className="relative">
                     <Image
-                      src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                        item.attributes?.image?.data.attributes.url
-                      }`}
-                      width={item.attributes.image.data.attributes.width}
-                      height={item.attributes.image.data.attributes.height}
+                      src={urlForImage(item?.attributes?.image)}
+                      width={widthForImage(item?.attributes?.image)}
+                      height={heightForImage(item?.attributes?.image)}
                       layout="responsive"
-                      alt=""
+                      alt={item.attributes.heading}
                     />
                   </div>
                 </div>

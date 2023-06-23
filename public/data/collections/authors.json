@@ -6,7 +6,7 @@
         "slug": "bob-brown",
         "fullName": "Bob Brown",
         "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
-        "bio": "Bio...",
+        "bio": "# Heading 1\n# Heading 2\nParagraph",
         "position": "Writer",
         "profileImage": {
           "data": {
@@ -29,7 +29,7 @@
         "slug": "mary-maloney",
         "fullName": "Mary Maloney",
         "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
-        "bio": "Bio...",
+        "bio": "# Heading 1\n# Heading 2\nParagraph",
         "position": "Writer",
         "profileImage": {
           "data": {
@@ -52,7 +52,7 @@
         "slug": "joe-bloggs",
         "fullName": "Joe Bloggs",
         "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
-        "bio": "Bio...",
+        "bio": "# Heading 1\n# Heading 2\nParagraph",
         "position": "Writer",
         "profileImage": {
           "data": {

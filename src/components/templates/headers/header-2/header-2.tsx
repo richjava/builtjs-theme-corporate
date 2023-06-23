@@ -1,9 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import getConfig from "next/config";
 import { useRouter } from "next/router";
-import { ButtonLink } from "src/components/elements";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 import ModeToggleBtn from "../../../elements/mode-toggle-btn";
 
 export default function Header2({ content }: any) {
@@ -11,7 +10,6 @@ export default function Header2({ content }: any) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   if (!content) return <></>;
   let { collections = null, global = null } = { ...content };
-  const { publicRuntimeConfig } = getConfig();
   const collectionNames = {
     PRIMARY_MENU_ITEMS: "primary-menu-items",
   };
@@ -29,11 +27,9 @@ export default function Header2({ content }: any) {
               <span className="relative w-10">
                 <Image
                   className="text-gray-400 bg-white fill-current dark:bg-gray-800"
-                  src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                    global?.logo?.data.attributes.url
-                  }`}
-                  width={global?.logo?.data.attributes.width || "40px"}
-                  height={global?.logo?.data.attributes.height || "40px"}
+                  src={urlForImage(global?.logo)}
+                  width={widthForImage(global?.logo)}
+                  height={heightForImage(global?.logo)}
                   layout="responsive"
                   alt=""
                 />

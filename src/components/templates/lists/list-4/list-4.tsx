@@ -1,12 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { format } from "date-fns";
-import getConfig from "next/config";
+import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 
 export default function List4({ content }: any) {
   if (!content) return <></>;
   let { collections } = content;
-  const { publicRuntimeConfig } = getConfig();
   if (!collections) {
     throw new Error("No collections");
   }
@@ -29,12 +28,10 @@ export default function List4({ content }: any) {
                 <div className="relative transition-opacity rounded-lg h-96 lg:h-full hover:opacity-80">
                   <Image
                     className="bg-gray-100 rounded-lg"
-                    src={`${publicRuntimeConfig.BACKEND_URL || ""}${
-                      heroPost.attributes?.image?.data.attributes.url
-                    }`}
+                    src={urlForImage(heroPost?.attributes?.image)}
                     layout="fill"
                     objectFit="cover"
-                    alt=""
+                    alt={heroPost.attributes.heading}
                   />
                 </div>
               </Link>

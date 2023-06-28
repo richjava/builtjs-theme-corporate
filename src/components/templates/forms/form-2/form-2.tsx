@@ -46,7 +46,7 @@ export default function Form1({ content }: any) {
                 return (
                   <SocialLink
                     key={i}
-                    attributes={socialLink.attributes}
+                    attributes={socialLink}
                   ></SocialLink>
                 );
               })}

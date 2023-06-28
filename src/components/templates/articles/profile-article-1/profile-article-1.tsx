@@ -16,24 +16,24 @@ export default function ProfileArticle1({ content }:any) {
         <div className="max-w-screen-xl mx-auto">
           <header className="max-w-4xl mx-auto">
             <span className={`preheading blank left`}>
-              {item.attributes.position}
+              {item.position}
             </span>
             <div className="flex items-center">
-              <h1 className="mb-10">{item.attributes.fullName}</h1>
+              <h1 className="mb-10">{item.fullName}</h1>
             </div>
           </header>
           <div className="relative mb-20">
             <Image
-              src={urlForImage(item.attributes?.profileImage)}
-              width={widthForImage(item.attributes?.profileImage)}
-              height={heightForImage(item.attributes?.profileImage)}
+              src={urlForImage(item.profileImage)}
+              width={widthForImage(item.profileImage)}
+              height={heightForImage(item.profileImage)}
               layout="responsive"
-              alt={item.attributes.fullName}
+              alt={item.fullName}
             />
           </div>
           <div
             className="max-w-2xl mx-auto"
-            dangerouslySetInnerHTML={getHTML(item.attributes.bio)}
+            dangerouslySetInnerHTML={getHTML(item.bio)}
           ></div>
         </div>
       )}

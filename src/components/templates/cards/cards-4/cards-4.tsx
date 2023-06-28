@@ -26,12 +26,12 @@ export default function Cards4({ content }: any) {
                 className="p-8 bg-gray-100 rounded-lg dark:bg-gray-700"
               >
                 <Preheading
-                  attributes={item.attributes.preheading}
+                  attributes={item.preheading}
                 ></Preheading>
-                <h3 className="mb-4">{item.attributes.heading}</h3>
-                <p className="mb-10">{item.attributes.blurb}</p>
-                {item.attributes.buttonLinks &&
-                  item.attributes.buttonLinks.map((button: any) => {
+                <h3 className="mb-4">{item.heading}</h3>
+                <p className="mb-10">{item.blurb}</p>
+                {item.buttonLinks &&
+                  item.buttonLinks.map((button: any) => {
                     return (
                       <ButtonLink
                         key={button.type}

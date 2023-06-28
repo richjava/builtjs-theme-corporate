@@ -16,7 +16,7 @@ export default function List4({ content }: any) {
     items = collection.data;
   }
   const heroPost = items[0];
-  const url = `/${collectionName}/${heroPost.attributes.slug}`;
+  const url = `/${collectionName}/${heroPost.slug}`;
 
   return (
     <section id="list-4" className="template">
@@ -28,36 +28,36 @@ export default function List4({ content }: any) {
                 <div className="relative transition-opacity rounded-lg h-96 lg:h-full hover:opacity-80">
                   <Image
                     className="bg-gray-100 rounded-lg"
-                    src={urlForImage(heroPost?.attributes?.image)}
+                    src={urlForImage(heroPost?.image)}
                     layout="fill"
                     objectFit="cover"
-                    alt={heroPost.attributes.heading}
+                    alt={heroPost.heading}
                   />
                 </div>
               </Link>
             </div>
             <div className="col-span-2 lg:py-20">
               <div className="flex items-center mb-4">
-                {heroPost.attributes.date && (
+                {heroPost.date && (
                   <p className="mb-0 text-sm capitalize preheading">
-                    {format(new Date(heroPost.attributes.date), "dd LLLL yyyy")}
+                    {format(new Date(heroPost.date), "dd LLLL yyyy")}
                   </p>
                 )}
                 <span className="mx-3 text-gray-400">|</span>
-                {heroPost.attributes.category && (
+                {heroPost.category && (
                   <Link className="no-underline hover:underline" href={`/`}>
                     <p className="mb-0 text-sm capitalize">
-                      {heroPost.attributes.category}
+                      {heroPost.category}
                     </p>
                   </Link>
                 )}
               </div>
               <Link className="no-underline" href={url}>
                 <h2 className="hover:text-gray-700 dark:hover:text-gray-200">
-                  {heroPost.attributes.heading}
+                  {heroPost.heading}
                 </h2>
               </Link>
-              <p className="mb-10 text-lg">{heroPost.attributes.blurb}</p>
+              <p className="mb-10 text-lg">{heroPost.blurb}</p>
               <Link href={url}>Read Article</Link>
             </div>
           </div>

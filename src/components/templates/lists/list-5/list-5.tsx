@@ -5,10 +5,9 @@ import { format } from "date-fns";
 
 export default function List5({ content, router }: any) {
   if (!content) return <></>;
-  console.log({ content });
   const { collections } = content;
   if (!collections) {
-    throw new Error("No template collections");
+    return <></>;
   }
   let collectionName = Object.keys(collections)[0];
   let collection = collections[collectionName];
@@ -16,10 +15,6 @@ export default function List5({ content, router }: any) {
   if (collection) {
     items = collection.data;
   }
-  {
-    /* TODO: Implement Tag functionality */
-  }
-  // let tag = router && router.query ? router.query.tag : null;
 
   return (
     <section id="list-5" className="template">
@@ -28,19 +23,19 @@ export default function List5({ content, router }: any) {
           {items &&
             items.map((item: any) => {
               return (
-                <div key={item.attributes.slug}>
+                <div key={item.slug}>
                   <div>
                     <Link
                       className="w-24"
-                      href={`/${collectionName}/${item.attributes.slug}`}
+                      href={`/${collectionName}/${item.slug}`}
                     >
                       <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
                         <Image 
                           className="bg-gray-100 rounded-lg"
-                          src={urlForImage(item?.attributes?.image)}
+                          src={urlForImage(item?.image)}
                           layout="fill"
                           objectFit="cover"
-                          alt={item.attributes.heading}
+                          alt={item.heading}
                         />
                       </div>
                     </Link>
@@ -49,30 +44,30 @@ export default function List5({ content, router }: any) {
                   <div>
                     <div className="flex items-center mb-2">
                       <p className="mb-0 text-sm capitalize preheading">
-                        {format(new Date(item.attributes.date), "dd LLLL yyyy")}
+                        {format(new Date(item.date), "dd LLLL yyyy")}
                       </p>
                       <span className="mx-3 text-gray-400">|</span>
-                      {item.attributes.category && (
+                      {item.category && (
                         <Link
                           className="no-underline hover:underline"
                           href={`/`}
                         >
                           <p className="mb-0 text-sm capitalize">
-                            {item.attributes.category}
+                            {item.category}
                           </p>
                         </Link>
                       )}
                     </div>
                     <Link
                       className="no-underline"
-                      href={`/${collectionName}/${item.attributes.slug}`}
+                      href={`/${collectionName}/${item.slug}`}
                     >
                       <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">
-                        {item.attributes.heading}
+                        {item.heading}
                       </h3>
                     </Link>
                     <p>{item.blurb}</p>
-                    <Link href={`/${collectionName}/${item.attributes.slug}`}>
+                    <Link href={`/${collectionName}/${item.slug}`}>
                       Read Article
                     </Link>
                   </div>

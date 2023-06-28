@@ -2,70 +2,52 @@
   "data": [
     {
       "id": "author-eb4f3b3c-04ed-4e08-b8fb-6b7db6efcb80",
-      "attributes": {
-        "slug": "bob-brown",
-        "fullName": "Bob Brown",
-        "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
-        "bio": "# Heading 1\n# Heading 2\nParagraph",
-        "position": "Writer",
-        "profileImage": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 48,
-              "height": 48
-            }
-          }
-        }
+      "slug": "bob-brown",
+      "fullName": "Bob Brown",
+      "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "bio": "# Heading 1\n# Heading 2\nParagraph",
+      "position": "Writer",
+      "profileImage": {
+        "name": "image",
+        "path": "/images/theme",
+        "ext": "png",
+        "url": "/images/theme/image.png",
+        "width": 48,
+        "height": 48
       },
       "status": "published"
     },
     {
       "id": "author-eb4f3b3c-04ed-4e08-b8fb-6b7db6efcb81",
-      "attributes": {
-        "slug": "mary-maloney",
-        "fullName": "Mary Maloney",
-        "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
-        "bio": "# Heading 1\n# Heading 2\nParagraph",
-        "position": "Writer",
-        "profileImage": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 48,
-              "height": 48
-            }
-          }
-        }
+      "slug": "mary-maloney",
+      "fullName": "Mary Maloney",
+      "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "bio": "# Heading 1\n# Heading 2\nParagraph",
+      "position": "Writer",
+      "profileImage": {
+        "name": "image",
+        "path": "/images/theme",
+        "ext": "png",
+        "url": "/images/theme/image.png",
+        "width": 48,
+        "height": 48
       },
       "status": "published"
     },
     {
       "id": "author-eb4f3b3c-04ed-4e08-b8fb-6b7db6efcb82",
-      "attributes": {
-        "slug": "joe-bloggs",
-        "fullName": "Joe Bloggs",
-        "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
-        "bio": "# Heading 1\n# Heading 2\nParagraph",
-        "position": "Writer",
-        "profileImage": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 48,
-              "height": 48
-            }
-          }
-        }
+      "slug": "joe-bloggs",
+      "fullName": "Joe Bloggs",
+      "excerpt": "Consectetur adipiscing elit. Integer placerat scelerisque leo, ac tincidunt ex feugiat vel. Nunc volutpat ex libero, vel imperdiet urna facilisis a. Nullam ac magna quis nunc tempor maximus eget at ligula.",
+      "bio": "# Heading 1\n# Heading 2\nParagraph",
+      "position": "Writer",
+      "profileImage": {
+        "name": "image",
+        "path": "/images/theme",
+        "ext": "png",
+        "url": "/images/theme/image.png",
+        "width": 48,
+        "height": 48
       },
       "status": "published"
     }

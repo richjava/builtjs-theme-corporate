@@ -3,12 +3,12 @@ const { publicRuntimeConfig } = getConfig();
 
 export const urlForImage = (source) => {
   return `${publicRuntimeConfig.BACKEND_URL || ""}${
-    source?.data?.attributes?.url
+    source?.url
   }`
 }
 
 export const widthForImage = (source) =>
-source?.data?.attributes?.width
+source?.width
 
 export const heightForImage = (source) =>
-source?.data?.attributes?.height
+source?.height

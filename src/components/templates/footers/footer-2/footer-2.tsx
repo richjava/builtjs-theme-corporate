@@ -21,10 +21,10 @@ export default function Footer2({ content }: any) {
               {primaryMenuItems.map((menuItem: any, i: number) => (
                 <li key={i}>
                   <a
-                    href={menuItem.attributes.url}
+                    href={menuItem.url}
                     className="flex px-3 py-2 text-gray-600 transition duration-200 ease-in-out dark:hover:text-white dark:text-gray-300 hover:text-gray-900"
                   >
-                    {menuItem.attributes.label}
+                    {menuItem.label}
                   </a>
                 </li>
               ))}
@@ -35,7 +35,7 @@ export default function Footer2({ content }: any) {
                 return (
                   <SocialLink
                     key={i}
-                    attributes={socialLink.attributes}
+                    attributes={socialLink}
                   ></SocialLink>
                 );
               })}

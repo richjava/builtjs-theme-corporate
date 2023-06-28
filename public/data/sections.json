@@ -53,16 +53,12 @@
         "pageTitle": "Home | Corporate Tailwind Built.JS Theme",
         "description": "Home page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 1280,
-              "height": 768
-            }
-          }
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -84,16 +80,12 @@
         "heading": "Lorem ipsum dolor sit amet dev",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "image-square",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image-square.png",
-              "width": 768,
-              "height": 768
-            }
-          }
+          "name": "image-square",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image-square.png",
+          "width": 768,
+          "height": 768
         },
         "buttonLinks": [
           {
@@ -199,7 +191,7 @@
       },
       "collections": {
         "authors": {
-          "config":{
+          "config": {
             "limit": 3
           },
           "article": {
@@ -221,16 +213,12 @@
         "pageTitle": "Services | Corporate Tailwind Built.JS Theme",
         "description": "Services page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 1280,
-              "height": 768
-            }
-          }
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -252,16 +240,12 @@
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 1280,
-              "height": 768
-            }
-          }
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
         },
         "buttonLinks": [
           {
@@ -294,16 +278,12 @@
         "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 1280,
-              "height": 768
-            }
-          }
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
         },
         "buttonLinks": [
           {
@@ -327,16 +307,12 @@
         "pageTitle": "About | Corporate Tailwind Built.JS Theme",
         "description": "About page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 1280,
-              "height": 768
-            }
-          }
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -358,16 +334,12 @@
         "heading": "Lorem ipsum dolor sit amet",
         "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image": {
-          "data": {
-            "attributes": {
-              "name": "image-square",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image-square.png",
-              "width": 1000,
-              "height": 1000
-            }
-          }
+          "name": "image-square",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image-square.png",
+          "width": 1000,
+          "height": 1000
         },
         "buttonLinks": [
           {
@@ -434,16 +406,12 @@
         "pageTitle": "Contact | Corporate Tailwind Built.JS Theme",
         "description": "Contact page for a site built with the Corporate Tailwind Built.JS Theme.",
         "shareImage": {
-          "data": {
-            "attributes": {
-              "name": "image",
-              "path": "/images/theme",
-              "ext": "png",
-              "url": "/images/theme/image.png",
-              "width": 1280,
-              "height": 768
-            }
-          }
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
         },
         "twitterCardType": "summary",
         "twitterUsername": ""
@@ -471,16 +439,12 @@
         "contextualLinks": [
           {
             "icon": {
-              "data": {
-                "attributes": {
-                  "name": "phone",
-                  "path": "/images/theme/icons",
-                  "ext": "svg",
-                  "url": "/images/theme/icons/phone.svg",
-                  "width": 24,
-                  "height": 26
-                }
-              }
+              "name": "phone",
+              "path": "/images/theme/icons",
+              "ext": "svg",
+              "url": "/images/theme/icons/phone.svg",
+              "width": 24,
+              "height": 26
             },
             "text": "Monday - Friday 9am - 5pm",
             "label": "0800 123 4567",
@@ -488,16 +452,12 @@
           },
           {
             "icon": {
-              "data": {
-                "attributes": {
                   "name": "mail",
                   "path": "/images/theme/icons",
                   "ext": "svg",
                   "url": "/images/theme/icons/mail.svg",
                   "width": 24,
                   "height": 26
-                }
-              }
             },
             "text": "General Enquiries",
             "label": "info@companyname.co.nz",
@@ -505,16 +465,12 @@
           },
           {
             "icon": {
-              "data": {
-                "attributes": {
-                  "name": "marker",
-                  "path": "/images/theme/icons",
-                  "ext": "svg",
-                  "url": "/images/theme/icons/marker.svg",
-                  "width": 28,
-                  "height": 34
-                }
-              }
+              "name": "marker",
+              "path": "/images/theme/icons",
+              "ext": "svg",
+              "url": "/images/theme/icons/marker.svg",
+              "width": 28,
+              "height": 34
             },
             "text": "123 Example Street, Suburb, Christchurch, 8011 New Zealand",
             "label": "Get Directions",

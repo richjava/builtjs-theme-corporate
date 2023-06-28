@@ -1,63 +1,84 @@
+import Link from "next/link";
 import Image from "next/image";
-import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
-import { ButtonLink, Preheading } from "src/components/elements";
+import getConfig from "next/config";
+import { format } from "date-fns";
+import { 
+  urlForImage, 
+ } from "@/lib/images";
 
-export default function List2({ content }: any) {
+export default function List2({ content, router }: any) {
   if (!content) return <></>;
-  let { collections = null } = { ...content };
+  const { collections } = content;
   if (!collections) {
-    throw new Error(
-      `No collections attribute provided in sections.json for template`
-    );
+    return <></>;
   }
   let collectionName = Object.keys(collections)[0];
   let collection = collections[collectionName];
-  let items;
-  if (collection) {
-    items = collection.data;
-  }
 
   return (
     <section id="list-2" className="template">
-      <div className="mx-auto max-w-screen-xl">
-        <div className="grid grid-cols-1 gap-y-24">
-          {items &&
-            items.map((item: any, i: number) => (
-              <div
-                key={i}
-                className="items-center grid grid-cols-1 gap-10 lg:grid-cols-2"
-              >
-                <div className={`${i % 2 !== 0 ? "" : "lg:order-last"}`}>
-                  <div className="relative">
-                    <Image
-                      src={urlForImage(item?.attributes?.image)}
-                      width={widthForImage(item?.attributes?.image)}
-                      height={heightForImage(item?.attributes?.image)}
-                      layout="responsive"
-                      alt={item.attributes.heading}
-                    />
+      <div className="max-w-screen-xl mx-auto">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-16 lg:grid-cols-3">
+          {collection &&
+            collection.map((item: any) => {
+              return (
+                <div key={item.slug.current ? item.slug.current : item.slug}>
+                  {item.image && <div>
+                    <Link
+                      className="w-24"
+                      href={`/${collectionName}/${item.slug.current ? item.slug.current : item.slug}`}
+                    >
+                      <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
+                        <Image
+                          className="bg-gray-100 rounded-lg"
+                          src={urlForImage(item.image)}
+                          layout="fill"
+                          objectFit="cover"
+                          alt={item.title}
+                        />
+                      </div>
+                    </Link>
+                  </div>}
+                  <div>
+                    <div className="flex items-center mb-2">
+                      <p className="mb-0 text-sm capitalize preheading">
+                        {format(new Date(item.date), "dd LLLL yyyy")}
+                      </p>
+                      <span className="mx-3 text-gray-400">|</span>
+                      {/* TODO: Implement Category functionality */}
+                      {item.category && (
+                        <Link
+                          className="no-underline hover:underline"
+                          href={`/`}
+                        >
+                          <p className="mb-0 text-sm capitalize">
+                            {item.category}
+                          </p>
+                        </Link>
+                      )}
+                    </div>
+                    <Link
+                      className="no-underline"
+                      href={`/${collectionName}/${item.slug.current ? item.slug.current : item.slug}`}
+                    >
+                      <h3 className="mb-2 hover:text-gray-700 dark:hover:text-gray-200">
+                        {item.title}
+                      </h3>
+                    </Link>
+                    <p>{item.blurb}</p>
+                    <Link href={`/${collectionName}/${item.slug.current ? item.slug.current : item.slug}`}>
+                      Read Article
+                    </Link>
                   </div>
                 </div>
-
-                <div>
-                  <Preheading
-                    attributes={item.attributes.preheading}
-                  ></Preheading>
-                  <h2>{item.attributes.heading}</h2>
-                  <p className="mb-12">{item.attributes.blurb}</p>
-                  {item.attributes.buttonLinks &&
-                    item.attributes.buttonLinks.map((button: any) => {
-                      return (
-                        <ButtonLink
-                          key={button.type}
-                          attributes={button}
-                        ></ButtonLink>
-                      );
-                    })}
-                </div>
-              </div>
-            ))}
+              );
+            })}
         </div>
+        {!collection.length && (
+          <div>
+            <p>No posts</p>
+          </div>
+        )}
       </div>
     </section>
   );

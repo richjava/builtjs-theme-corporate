@@ -1,25 +1,19 @@
 {
   "data": [
     {
-      "attributes": {
         "slug": "services",
         "label": "Services",
         "url": "/services"
-      }
     },
     {
-      "attributes": {
         "slug": "about",
         "label": "About",
         "url": "/about"
-      }
     },
     {
-      "attributes": {
         "slug": "contact",
         "label": "Contact",
         "url": "/contact"
-      }
     }
   ]
 }

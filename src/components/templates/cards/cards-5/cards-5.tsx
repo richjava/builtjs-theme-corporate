@@ -29,28 +29,28 @@ export default function Cards5({ content }: any) {
           {items &&
             items.slice(0, limit).map((item: any, i: number) => (
               <div key={i}>
-                <Link href={`/${collectionName}/${item.attributes.slug}`}>
+                <Link href={`/${collectionName}/${item.slug}`}>
                   <div className="relative w-full h-56 transition-opacity rounded-b-none hover:opacity-80">
                     <Image
                       className="rounded-b-none"
-                      src={urlForImage(item.attributes?.image)}
+                      src={urlForImage(item.image)}
                       layout="fill"
                       objectFit="cover"
-                      alt={item.attributes.heading}
+                      alt={item.heading}
                     />
                   </div>
                 </Link>
                 <div className="p-8 border border-t-0 border-gray-200 rounded-b-lg dark:border-gray-700">
                   <Link
                     className="no-underline"
-                    href={`/${collectionName}/${item.attributes.slug}`}
+                    href={`/${collectionName}/${item.slug}`}
                   >
                     <h3 className="mb-4 hover:text-gray-700 dark:hover:text-gray-200">
-                      {item.attributes.heading}
+                      {item.heading}
                     </h3>
                   </Link>
-                  <p>{item.attributes.blurb}</p>
-                  <Link href={`/${collectionName}/${item.attributes.slug}`}>
+                  <p>{item.blurb}</p>
+                  <Link href={`/${collectionName}/${item.slug}`}>
                     Read Article
                   </Link>
                 </div>

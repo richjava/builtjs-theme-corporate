@@ -1,76 +1,52 @@
 {
   "data": [
     {
-      "attributes": {
-        "heading": "Facebook",
-        "icon": {
-          "data": {
-            "attributes": {
-              "name": "facebook",
-              "path": "/images/theme/icons",
-              "ext": "svg",
-              "url": "/images/theme/icons/facebook.svg",
-              "width": 24,
-              "height": 24
-            }
-          }
-        },
-        "url": "https://facebook.com"
-      }
+      "heading": "Facebook",
+      "icon": {
+        "name": "facebook",
+        "path": "/images/theme/icons",
+        "ext": "svg",
+        "url": "/images/theme/icons/facebook.svg",
+        "width": 24,
+        "height": 24
+      },
+      "url": "https://facebook.com"
     },
     {
-      "attributes": {
-        "heading": "Twitter",
-        "icon": {
-          "data": {
-            "attributes": {
-              "name": "twitter",
-              "path": "/images/theme/icons",
-              "ext": "svg",
-              "url": "/images/theme/icons/twitter.svg",
-              "width": 30,
-              "height": 24
-            }
-          }
-        },
-        "url": "https://twitter.com"
-      }
+      "heading": "Twitter",
+      "icon": {
+        "name": "twitter",
+        "path": "/images/theme/icons",
+        "ext": "svg",
+        "url": "/images/theme/icons/twitter.svg",
+        "width": 30,
+        "height": 24
+      },
+      "url": "https://twitter.com"
     },
     {
-      "attributes": {
-        "heading": "Instagram",
-        "icon": {
-          "data": {
-            "attributes": {
-              "name": "instagram",
-              "path": "/images/theme/icons",
-              "ext": "svg",
-              "url": "/images/theme/icons/instagram.svg",
-              "width": 24,
-              "height": 24
-            }
-          }
-        },
-        "url": "https://instagram.com"
-      }
+      "heading": "Instagram",
+      "icon": {
+        "name": "instagram",
+        "path": "/images/theme/icons",
+        "ext": "svg",
+        "url": "/images/theme/icons/instagram.svg",
+        "width": 24,
+        "height": 24
+      },
+      "url": "https://instagram.com"
     },
     {
-      "attributes": {
-        "heading": "Youtube",
-        "icon": {
-          "data": {
-            "attributes": {
-              "name": "youtube",
-              "path": "/images/theme/icons",
-              "ext": "svg",
-              "url": "/images/theme/icons/facebook.svg",
-              "width": 32,
-              "height": 24
-            }
-          }
-        },
-        "url": "https://youtube.com"
-      }
+      "heading": "Youtube",
+      "icon": {
+        "name": "youtube",
+        "path": "/images/theme/icons",
+        "ext": "svg",
+        "url": "/images/theme/icons/facebook.svg",
+        "width": 32,
+        "height": 24
+      },
+      "url": "https://youtube.com"
     }
   ]
 }

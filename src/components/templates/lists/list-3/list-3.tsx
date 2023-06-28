@@ -30,23 +30,23 @@ export default function List3({ content }: any) {
                 <div className="lg:order-last">
                   <div className="relative">
                     <Image
-                      src={urlForImage(item?.attributes?.image)}
-                      width={widthForImage(item?.attributes?.image)}
-                      height={heightForImage(item?.attributes?.image)}
+                      src={urlForImage(item?.image)}
+                      width={widthForImage(item?.image)}
+                      height={heightForImage(item?.image)}
                       layout="responsive"
-                      alt={item.attributes.heading}
+                      alt={item.heading}
                     />
                   </div>
                 </div>
 
                 <div>
                   <Preheading
-                    attributes={item.attributes.preheading}
+                    attributes={item.preheading}
                   ></Preheading>
-                  <h2>{item.attributes.heading}</h2>
-                  <p className="mb-12">{item.attributes.blurb}</p>
-                  {item.attributes.buttonLinks &&
-                    item.attributes.buttonLinks.map((button: any) => {
+                  <h2>{item.heading}</h2>
+                  <p className="mb-12">{item.blurb}</p>
+                  {item.buttonLinks &&
+                    item.buttonLinks.map((button: any) => {
                       return (
                         <ButtonLink
                           key={button.type}

@@ -30,32 +30,32 @@ export default function ProfileCards1({ content }: any) {
           {items &&
             items.slice(0, limit).map((item: any, i: number) => (
               <div key={i}>
-                <Link href={`/authors/${item.attributes.slug}`}>
+                <Link href={`/authors/${item.slug}`}>
                   <div className="relative w-full h-56 transition-opacity rounded-b-none hover:opacity-80">
                     <Image
                       className="rounded-b-none"
-                      src={urlForImage(item.attributes?.profileImage)}
+                      src={urlForImage(item.profileImage)}
                       layout="fill"
                       objectFit="cover"
-                      alt={item.attributes.fullName}
+                      alt={item.fullName}
                     />
                   </div>
                 </Link>
                 <div className="p-8 border border-t-0 border-gray-200 rounded-b-lg dark:border-gray-700">
                   <span className={`preheading blank left`}>
-                    {item.attributes.position}
+                    {item.position}
                   </span>
-                  <Preheading attributes={item.attributes}></Preheading>
+                  <Preheading attributes={item}></Preheading>
                   <Link
                     className="no-underline"
-                    href={`/authors/${item.attributes.slug}`}
+                    href={`/authors/${item.slug}`}
                   >
                     <h3 className="mb-4 hover:text-gray-700 dark:hover:text-gray-200">
-                      {item.attributes.fullName}
+                      {item.fullName}
                     </h3>
                   </Link>
-                  <p>{item.attributes.excerpt}</p>
-                  <Link href={`/authors/${item.attributes.slug}`}>
+                  <p>{item.excerpt}</p>
+                  <Link href={`/authors/${item.slug}`}>
                     Read More
                   </Link>
                 </div>

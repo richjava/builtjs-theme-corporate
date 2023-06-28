@@ -48,18 +48,18 @@ export default function Header2({ content }: any) {
                 menuItems.map((menuItem: any) => {
                   return (
                     <li
-                      key={menuItem.attributes.label}
+                      key={menuItem.label}
                       className={
-                        router.pathname == menuItem.attributes.url
+                        router.pathname == menuItem.url
                           ? "active"
                           : ""
                       }
                     >
                       <Link
                         className="flex justify-center w-full p-3 text-gray-600 transition duration-200 ease-in-out rounded-md dark:text-gray-300 hover:text-gray-900 hover:bg-gray-100 dark:hover:text-gray-800 md:w-auto"
-                        href={menuItem.attributes.url}
+                        href={menuItem.url}
                       >
-                        {menuItem.attributes.label}
+                        {menuItem.label}
                       </Link>
                     </li>
                   );

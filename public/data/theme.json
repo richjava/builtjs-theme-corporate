@@ -30,7 +30,7 @@
         "slug": "contact"
       }
     ],
-    "deps": {
+    "config": {
       "frontend": {
         "project": {
           "main": {

@@ -4,7 +4,6 @@ import { urlForImage, widthForImage, heightForImage } from "@/lib/images";
 
 export default function ContextualLink({ attributes }:any) {
   if (!attributes) return <></>;
-  console.log(attributes?.icon);
   return (
     <div key={attributes.url} className="flex items-start">
       <Image

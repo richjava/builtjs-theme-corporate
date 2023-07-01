@@ -18,8 +18,6 @@ export default function Form1({ content }: any) {
   if (collections && collections["social-links"]) {
     socialLinks = collections["social-links"].data;
   }
-console.log({attributes});
-console.log({socialLinks});
   return (
     <section id="form-1" className="template">
       <div className="mx-auto max-w-screen-xl">

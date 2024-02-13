@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "header": {
+      "name": "header",
+      "category": "layout",
+      "fields": {}
+    },
+    "footer": {
+      "name": "footer",
+      "category": "layout",
+      "fields": {}
+    },
+    "homeSeo": {
+      "name": "homeSeo",
+      "category": "seo",
+      "fields": {
+        "pageTitle": {
+          "type": "string"
+        },
+        "description": {
+          "type": "text"
+        },
+        "shareImage": {
+          "type": "image"
+        },
+        "twitterCardType": {
+          "type": "string"
+        },
+        "twitterUsername": {
+          "type": "string"
+        }
+      }
+    },
+    "contactSeo": {
+      "name": "contactSeo",
+      "category": "seo",
+      "fields": {
+        "pageTitle": {
+          "type": "string"
+        },
+        "description": {
+          "type": "text"
+        },
+        "shareImage": {
+          "type": "image"
+        },
+        "twitterCardType": {
+          "type": "string"
+        },
+        "twitterUsername": {
+          "type": "string"
+        }
+      }
+    },
+    "aboutSeo": {
+      "name": "aboutSeo",
+      "category": "seo",
+      "fields": {
+        "pageTitle": {
+          "type": "string"
+        },
+        "description": {
+          "type": "text"
+        },
+        "shareImage": {
+          "type": "image"
+        },
+        "twitterCardType": {
+          "type": "string"
+        },
+        "twitterUsername": {
+          "type": "string"
+        }
+      }
+    },
+    "servicesSeo": {
+      "name": "servicesSeo",
+      "category": "seo",
+      "fields": {
+        "pageTitle": {
+          "type": "string"
+        },
+        "description": {
+          "type": "text"
+        },
+        "shareImage": {
+          "type": "image"
+        },
+        "twitterCardType": {
+          "type": "string"
+        },
+        "twitterUsername": {
+          "type": "string"
+        }
+      }
+    },
+    "mainLanding": {
+      "name": "mainLanding",
+      "category": "sections",
+      "fields": {
+        "preheading": {
+          "type": "element",
+          "repeatable": false,
+          "element": "preheading"
+        },
+        "heading": {
+          "type": "string"
+        },
+        "blurb": { "type": "text" },
+        "image": {
+          "type": "image"
+        },
+        "buttonLinks": {
+          "type": "element",
+          "repeatable": true,
+          "element": "buttonLink"
+        }
+      }
+    },
+    "contactLanding": {
+      "name": "contactLanding",
+      "category": "forms",
+      "fields": {
+        "preheading": {
+          "type": "element",
+          "repeatable": false,
+          "element": "preheading"
+        },
+        "heading": {
+          "type": "string"
+        },
+        "blurb": { "type": "text" },
+        "contextualLinks": {
+          "type": "element",
+          "repeatable": true,
+          "element": "contextualLink"
+        },
+        "fields": {
+          "type": "element",
+          "repeatable": true,
+          "element": "field"
+        },
+        "button": {
+          "type": "element",
+          "repeatable": false,
+          "element": "button"
+        }
+      }
+    },
+    "featuresList": {
+      "name": "featuresList",
+      "category": "sections",
+      "fields": {}
+    },
+    "contactTeaser": {
+      "name": "contactTeaser",
+      "category": "sections",
+      "fields": {
+        "preheading": {
+          "type": "element",
+          "repeatable": false,
+          "element": "preheading"
+        },
+        "heading": { "type": "string" },
+        "buttonLinks": {
+          "type": "element",
+          "repeatable": true,
+          "element": "buttonLink"
+        }
+      },
+      "variants": {
+        "backgroundColor": "darkest"
+      }
+    },
+    "aboutTeaser": {
+      "name": "aboutTeaser",
+      "category": "sections",
+      "fields": {
+        "preheading": {
+          "type": "element",
+          "repeatable": false,
+          "element": "preheading"
+        },
+        "heading": { "type": "string" },
+        "blurb1": { "type": "text" },
+        "blurb2": { "type": "text" },
+        "buttonLinks": {
+          "type": "element",
+          "repeatable": true,
+          "element": "buttonLink"
+        }
+      }
+    },
+    "team": {
+      "name": "team",
+      "category": "sections",
+      "fields": {
+        "preheading": {
+          "type": "element",
+          "repeatable": false,
+          "element": "preheading"
+        },
+        "heading": { "type": "string" },
+        "blurb1": { "type": "text" },
+        "blurb2": { "type": "text" },
+        "buttonLinks": {
+          "type": "element",
+          "repeatable": true,
+          "element": "buttonLink"
+        }
+      }
+    },
+    "benefitsList": {
+      "name": "benefitsList",
+      "category": "sections",
+      "fields": {}
+    },
+    "servicesLanding": {
+      "name": "servicesLanding",
+      "category": "sections",
+      "fields": {
+        "preheading": {
+          "type": "element",
+          "repeatable": false,
+          "element": "preheading"
+        },
+        "heading": { "type": "string" },
+        "blurb": { "type": "text" },
+        "image": {
+          "type": "image"
+        }
+      }
+    },
+    "servicesBlock": {
+      "name": "servicesBlock",
+      "category": "sections",
+      "fields": {
+        "preheading": {
+          "type": "element",
+          "repeatable": false,
+          "element": "preheading"
+        },
+        "heading": {
+          "type": "string"
+        },
+        "blurb1": {
+          "type": "text"
+        },
+        "blurb2": {
+          "type": "text"
+        },
+        "image": {
+          "type": "image"
+        }
+      }
+    },
+    "aboutLanding": {
+      "name": "aboutLanding",
+      "category": "sections",
+      "fields": {
+        "preheading": {
+          "type": "element",
+          "repeatable": false,
+          "element": "preheading"
+        },
+        "heading": { "type": "string" },
+        "blurb": {
+          "type": "text"
+        },
+        "image": {
+          "type": "image"
+        },
+        "buttonLinks": {
+          "type": "element",
+          "repeatable": true,
+          "element": "buttonLink"
+        }
+      }
+    },
+    "aboutText": {
+      "name": "aboutText",
+      "category": "sections",
+      "fields": {
+        "heading": { "type": "string" },
+        "blurb1": {
+          "type": "text"
+        },
+        "blurb2": {
+          "type": "text"
+        }
+      }
+    },
+    "authorArticle": {
+      "name": "authorArticle",
+      "category": "sections",
+      "fields": {}
+    }
+  }
+}

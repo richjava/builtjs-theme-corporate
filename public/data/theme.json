@@ -1,0 +1,43 @@
+{
+  "theme": {
+    "version": "1.0.0",
+    "apiVersion": "1.2",
+    "title": "Corporate",
+    "description": "Small business theme with basic Tailwind styling.",
+    "language": "typescript",
+    "imageUrl": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/theme.png",
+    "repoName": "builtjs/builtjs-theme-corporate",
+    "gitProvider": "github",
+    "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate",
+    "demoUrl": "https://builtjs-theme-corporate.vercel.app",
+    "modules": [
+      {
+        "name": "main"
+      },
+      {
+        "name": "services"
+      },
+      {
+        "name": "features"
+      },
+      {
+        "name": "Benefits"
+      },
+      {
+        "name": "about"
+      },
+      {
+        "name": "contact"
+      }
+    ],
+    "config": {
+      "node": {
+        "dependencies": [
+          "@fisch0920/use-dark-mode",
+          "@sanity/block-content-to-react"
+        ],
+        "devDependencies": ["autoprefixer", "postcss", "tailwindcss"]
+      }
+    }
+  }
+}

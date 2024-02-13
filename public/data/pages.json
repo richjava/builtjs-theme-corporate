@@ -1,0 +1,224 @@
+{
+  "pages": [
+    {
+      "name": "home",
+      "title": "Home",
+      "demoSections": [
+        {
+          "name": "homeSeo"
+        },
+        {
+          "name": "mainLanding"
+        },
+        {
+          "name": "benefitsList"
+        },
+        {
+          "name": "featuresList"
+        },
+        {
+          "name": "contactTeaser"
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "title": "Services",
+      "demoSections": [
+        {
+          "name": "servicesSeo"
+        },
+        {
+          "name": "servicesLanding"
+        },
+        {
+          "name": "servicesBlock"
+        }
+      ]
+    },
+    {
+      "name": "about",
+      "title": "About",
+      "demoSections": [
+        {
+          "name": "aboutSeo"
+        },
+        {
+          "name": "aboutLanding"
+        },
+        {
+          "name": "team"
+        }
+      ]
+    },
+    {
+      "name": "authorArticle",
+      "title": "Author Article",
+      "contentType": {
+        "name": "author",
+        "config": {
+          "populate": [{
+            "name": "profile"
+          }]
+        }
+      },
+      "demoSections": [
+        {
+          "name": "authorArticle"
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "title": "Contact",
+      "demoSections": [
+        {
+          "name": "contactSeo"
+        },
+        {
+          "name": "contactLanding"
+        }
+      ]
+    },
+    {
+      "name": "banners",
+      "title": "Banners",
+      "type": "template",
+      "demoSections": [
+        {
+          "name": "contactTeaser"
+        },
+        {
+          "name": "contactTeaser"
+        },
+        {
+          "name": "contactTeaser"
+        },
+        {
+          "name": "contactTeaser"
+        },
+        {
+          "name": "contactTeaser"
+        }
+      ]
+    },
+    {
+      "name": "blocks",
+      "title": "Blocks",
+      "type": "template",
+      "demoSections": [
+        {
+          "name": "aboutTeaser"
+        },
+        {
+          "name": "aboutText"
+        },
+        {
+          "name": "aboutTeaser"
+        },
+        {
+          "name": "aboutText"
+        },
+        {
+          "name": "aboutTeaser"
+        }
+      ]
+    },
+    {
+      "name": "cards",
+      "title": "Cards",
+      "type": "template",
+      "demoSections": [
+        {
+          "name": "featuresList"
+        },
+        {
+          "name": "featuresList"
+        },
+        {
+          "name": "featuresList"
+        },
+        {
+          "name": "featuresList"
+        },
+        {
+          "name": "team"
+        }
+      ]
+    },
+    {
+      "name": "covers",
+      "title": "Covers",
+      "type": "template",
+      "demoSections": [
+        {
+          "name": "mainLanding"
+        },
+        {
+          "name": "aboutLanding"
+        },
+        {
+          "name": "aboutLanding"
+        },
+        {
+          "name": "servicesLanding"
+        },
+        {
+          "name": "servicesLanding"
+        }
+      ]
+    },
+    {
+      "name": "footers",
+      "title": "Footers",
+      "type": "template",
+      "demoSections": [
+        {
+          "name": "footer"
+        },
+        {
+          "name": "footer"
+        }
+      ]
+    },
+    {
+      "name": "forms",
+      "title": "Forms",
+      "type": "template",
+      "demoSections": [
+        {
+          "name": "contactLanding"
+        },
+        {
+          "name": "contactLanding"
+        }
+      ]
+    },
+    {
+      "name": "headers",
+      "title": "Headers",
+      "type": "template",
+      "demoSections": [
+        {
+          "name": "header"
+        },
+        {
+          "name": "header"
+        }
+      ]
+    },
+    {
+      "name": "lists",
+      "title": "Lists",
+      "type": "template",
+      "demoSections": [
+        {
+          "name": "benefitsList"
+        },
+        {
+          "name": "benefitsList"
+        }
+      ]
+    }
+  ]
+}

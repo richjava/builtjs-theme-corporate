@@ -9,11 +9,6 @@ import {
 export default function Form1({ content }: any) {
   if (!content) return <></>;
   let { data = null, collections = null } = { ...content };
-  if (!collections) {
-    throw new Error(
-      `No collections attribute provided in sections.json for template`
-    );
-  }
   let socialLinks = [];
   if (collections && collections["social-links"]) {
     socialLinks = collections["social-links"];

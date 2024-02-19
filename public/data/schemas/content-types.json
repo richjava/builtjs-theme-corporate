@@ -144,6 +144,26 @@
           "type": "image"
         }
       }
+    },
+    {
+      "name": "socialLink",
+      "title": "Social Link",
+      "fields": {
+        "heading": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "uid",
+          "targetField": "heading",
+          "required": true
+        },
+        "icon": {
+          "type": "image"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
     }
   ]
 }

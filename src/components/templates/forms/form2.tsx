@@ -1,17 +1,17 @@
 import {
   Preheading,
-  SocialLink,
   Field,
   ContextualLink,
   Button,
 } from "@/components/elements";
+import SocialLink from "@/components/shared/social-link";
 
 export default function Form1({ content }: any) {
   if (!content) return <></>;
   let { data = null, collections = null } = { ...content };
   let socialLinks = [];
-  if (collections && collections["social-links"]) {
-    socialLinks = collections["social-links"];
+  if (collections && collections["socialLink"]) {
+    socialLinks = collections["socialLink"];
   }
 
   return (
@@ -52,7 +52,6 @@ export default function Form1({ content }: any) {
               {data.fields.map((field: any, i: number) => {
                 return <Field key={i} data={field}></Field>;
               })}
-              {/* TODO: Form button needs wiring up */}
               <Button data={data.button}></Button>
             </form>
           </div>

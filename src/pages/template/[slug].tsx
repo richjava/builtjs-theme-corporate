@@ -14,6 +14,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       page.type === pageType ? [...acc, `/${pageType}/${page.name}`] : acc,
     []
   );
+  console.log('...pages', pages)
   return {
     paths: pages,
     fallback: true,
@@ -23,6 +24,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context:any) => {
   const { slug } = context.params;
   const config = await getConfig(slug, pageTypes.TEMPLATE);
+  config.params = context.params;
   return {
     props: { config }
   };

@@ -29,6 +29,7 @@ const Page = ({ config }:any) => {
     if (!config) {
       return;
     }
+    console.log({config})
     let page = await transformPage(config);
     if (!page) {
       return;

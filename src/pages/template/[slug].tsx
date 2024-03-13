@@ -14,7 +14,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
       page.type === pageType ? [...acc, `/${pageType}/${page.name}`] : acc,
     []
   );
-  console.log('...pages', pages)
   return {
     paths: pages,
     fallback: true,

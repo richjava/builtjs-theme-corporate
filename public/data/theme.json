@@ -8,7 +8,7 @@
     "imageUrl": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/theme.png",
     "repoName": "builtjs/builtjs-theme-corporate",
     "gitProvider": "github",
-    "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate",
+    "repoUrl": "https://github.com/richjava/builtjs-theme-corporate",
     "demoUrl": "https://builtjs-theme-corporate.vercel.app",
     "modules": [
       {

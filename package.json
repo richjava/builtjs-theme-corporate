@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@builtjs/theme": "^1.2.3",
+    "@builtjs/theme": "^1.2.4",
     "create-react-app": "^1.0.1",
     "next": "14.1.0",
     "react": "^18",

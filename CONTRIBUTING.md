@@ -4,4 +4,4 @@ When adding a new feature to this project:
 3. Checkout the newly created branch
 4. Try to keep the new feature as encapsulated as possible
 5. When the feature is ready for the next release, commit and push
-6. Create a merge request to merge the feature branch with the "dev" branch (not "master")
+6. Create a merge request to merge the feature branch with the "dev" branch (not "main")

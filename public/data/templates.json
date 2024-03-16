@@ -5,39 +5,39 @@
       "title": "Header 1",
       "category": "headers",
       "description": "Simple header with justified logo and nav links.",
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/headers/header1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/headers#header1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/headers/header1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/headers#header1"
     },
     {
       "name": "header2",
       "title": "Header 2",
       "category": "headers",
       "description": "Simple header with a logo followed by nav links.",
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/tree/main/components/templates/headers/header2",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/headers#header2"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/tree/main/src/components/templates/headers/header2",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/headers#header2"
     },
     {
       "name": "footer1",
       "title": "Footer 1",
       "category": "footers",
       "description": "Simple footer with centered content and social links.",
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/footers/footer1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/footers#footer1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/footers/footer1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/footers#footer1"
     },
     {
       "name": "footer2",
       "title": "Footer 2",
       "category": "footers",
       "description": "Simple footer with two equal columns and social links.",
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/footers/footer2.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/footers#footer2"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/footers/footer2.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/footers#footer2"
     },
     {
       "name": "seo",
       "title": "SEO",
       "category": "head",
       "description": "Define SEO meta titles, meta descriptions and social media meta data.",
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/head/seo.tsx"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/head/seo.tsx"
     },
     {
       "name": "banner1",
@@ -48,8 +48,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/banners/banner1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/banners#banner1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/banners/banner1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/banners#banner1"
     },
     {
       "name": "banner2",
@@ -60,8 +60,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner2.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner2.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/banners/banner2.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/banners#banner2"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/banners/banner2.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/banners#banner2"
     },
     {
       "name": "banner3",
@@ -72,8 +72,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner3.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner3.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/banners/banner3.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/banners#banner3"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/banners/banner3.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/banners#banner3"
     },
     {
       "name": "banner4",
@@ -84,8 +84,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner4.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner4.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/banners/banner4.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/banners#banner4"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/banners/banner4.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/banners#banner4"
     },
     {
       "name": "banner5",
@@ -96,8 +96,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner5.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/banners/banner5.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/banners/banner5.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/banners#banner5"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/banners/banner5.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/banners#banner5"
     },
     {
       "name": "block1",
@@ -108,8 +108,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/blocks/block1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/blocks#block1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/blocks/block1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/blocks#block1"
     },
     {
       "name": "block2",
@@ -120,8 +120,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block2.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block2.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/blocks/block2.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/blocks#block2"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/blocks/block2.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/blocks#block2"
     },
     {
       "name": "block3",
@@ -132,8 +132,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block3.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block3.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/blocks/block3.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/blocks#block3"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/blocks/block3.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/blocks#block3"
     },
     {
       "name": "block4",
@@ -144,8 +144,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block4.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block4.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/blocks/block4.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/blocks#block4"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/blocks/block4.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/blocks#block4"
     },
     {
       "name": "block5",
@@ -156,8 +156,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block5.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/blocks/block5.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/blocks/block5.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/blocks#block5"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/blocks/block5.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/blocks#block5"
     },
     {
       "name": "cards1",
@@ -168,8 +168,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/cards/cards1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/cards#cards1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/cards/cards1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/cards#cards1"
     },
     {
       "name": "cards2",
@@ -180,8 +180,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards2.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards2.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/cards/cards2.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/cards#cards2"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/cards/cards2.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/cards#cards2"
     },
     {
       "name": "cards3",
@@ -192,8 +192,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards3.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards3.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/cards/cards3.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/cards#cards3"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/cards/cards3.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/cards#cards3"
     },
     {
       "name": "cards4",
@@ -204,8 +204,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards4.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards4.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/cards/cards4.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/cards#cards4"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/cards/cards4.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/cards#cards4"
     },
     {
       "name": "cards5",
@@ -216,8 +216,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards5.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/cards5.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/cards/cards5.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/cards#cards5"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/cards/cards5.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/cards#cards5"
     },
     {
       "name": "profile-cards1",
@@ -228,8 +228,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/profile-cards1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/cards/profile-cards1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/cards/profile-cards1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/cards#profile-cards1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/cards/profile-cards1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/cards#profile-cards1"
     },
     {
       "name": "cover1",
@@ -240,8 +240,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/covers/cover1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/covers#cover1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/covers/cover1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/covers#cover1"
     },
     {
       "name": "cover2",
@@ -252,8 +252,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover2.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover2.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/covers/cover2.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/covers#cover2"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/covers/cover2.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/covers#cover2"
     },
     {
       "name": "cover3",
@@ -264,8 +264,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover3.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover3.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/covers/cover3.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/covers#cover3"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/covers/cover3.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/covers#cover3"
     },
     {
       "name": "cover4",
@@ -276,8 +276,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover4.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover4.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/covers/cover4.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/covers#cover4"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/covers/cover4.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/covers#cover4"
     },
     {
       "name": "cover5",
@@ -288,8 +288,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover5.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/covers/cover5.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/covers/cover5.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/covers#cover5"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/covers/cover5.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/covers#cover5"
     },
     {
       "name": "list1",
@@ -300,8 +300,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/lists/list1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/lists/list1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/lists/list1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/lists#list1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/lists/list1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/lists#list1"
     },
     {
       "name": "list2",
@@ -312,8 +312,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/lists/list2.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/lists/list2.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/lists/list2.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/lists#list2"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/lists/list2.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/lists#list2"
     },
     {
       "name": "form1",
@@ -324,8 +324,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/forms/form1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/forms/form1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/forms/form1.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/forms#form-1"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/forms/form1.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/forms#form-1"
     },
     {
       "name": "form2",
@@ -336,8 +336,8 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/forms/form2.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/forms/form2.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/forms/form2.tsx",
-      "demoUrl": "https://builtjs-theme-corporate.vercel.app/templates/forms#form2"
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/forms/form2.tsx",
+      "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/forms#form2"
     },
     {
       "name": "profile-article1",
@@ -348,7 +348,7 @@
         "thumb": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/articles/profile-article1.png",
         "lrg": "https://cdn.jsdelivr.net/gh/richjava/builtjs-theme-corporate/public/images/theme/templates/articles/profile-article1.png"
       },
-      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/components/templates/articles/profile-article1.tsx",
+      "repoUrl": "https://github.com/richjava/builtjs-theme-corporate/blob/main/src/components/templates/articles/profile-article1.tsx",
       "demoUrl": ""
     }
   ]

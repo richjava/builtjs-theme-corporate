@@ -220,7 +220,7 @@
       "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/cards#cards5"
     },
     {
-      "name": "profile-cards1",
+      "name": "profileCards1",
       "title": "Profile Cards 1",
       "category": "cards",
       "description": "Takes a collection of authors. Cards with three equal columns, left aligned content and an image.",
@@ -340,7 +340,7 @@
       "demoUrl": "https://builtjs-theme-corporate.vercel.app/template/forms#form2"
     },
     {
-      "name": "profile-article1",
+      "name": "profileArticle1",
       "title": "Profile Article 1",
       "category": "articles",
       "description": "Article section with hero image for introducing authors.",

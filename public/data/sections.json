@@ -10,7 +10,6 @@
       "defaultTemplate": {
         "name": "header1"
       },
-      "position": "start",
       "collections": {
         "primaryMenuItem": {}
       }
@@ -25,7 +24,6 @@
       "defaultTemplate": {
         "name": "footer1"
       },
-      "position": "end",
       "collections": {
         "primaryMenuItem": {},
         "socialLink": {}

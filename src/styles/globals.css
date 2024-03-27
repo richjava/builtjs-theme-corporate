@@ -35,15 +35,15 @@
   /* Define dark colors */
 
   --color-dark-01: #4b5563; 
-  --color-dark-02: #374151; /*3*/
-  --color-dark-03: #1f2937; /*2*/
-  --color-dark-04: #111827; /*1*/
+  --color-dark-02: #374151; 
+  --color-dark-03: #1f2937; 
+  --color-dark-04: #111827; 
 
   /* Define light color */
   --color-light-01: #9ca3af;
-  --color-light-02: #d1d5db;/*3*/
-  --color-light-03: #e5e7eb;/*2*/
-  --color-light-04: #f3f4f6;/*1*/
+  --color-light-02: #d1d5db;
+  --color-light-03: #e5e7eb;
+  --color-light-04: #f3f4f6;
 }
 
 /* Display styles */

@@ -167,7 +167,3 @@
 .preheading.dot::before {
   @apply w-1.5 h-1.5 bg-gray-400 rounded-full;
 }
-
-.tag {
-  @apply px-2 py-1 text-xs text-center text-white no-underline transition-colors bg-gray-700 dark:bg-light-03 rounded-3xl dark:hover:bg-light-02 hover:bg-gray-600 dark:text-accent;
-}

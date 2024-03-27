@@ -13,19 +13,19 @@ export default function List1({ content }: any) {
 
   return (
     <section id="list-1" className="template">
-      <div className="mx-auto max-w-screen-xl">
+      <div className="max-w-screen-xl mx-auto">
         <div className="grid grid-cols-1 gap-y-24">
           {collection &&
             collection.map((entry: any, i: number) => (
               <div
                 key={i}
-                className="items-center grid grid-cols-1 gap-10 lg:grid-cols-2"
+                className="grid items-center grid-cols-1 gap-10 lg:grid-cols-2"
               >
                 <div className={`${i % 2 === 0 ? "" : "lg:order-last"}`}>
                   <div className="relative">
                     {entry.image && (
                       <Image
-                        className="bg-gray-100 rounded-lg"
+                        className="bg-secondary rounded-corner-03"
                         src={urlForImage(entry.image)}
                         width={widthForImage(entry.image)}
                         height={heightForImage(entry.image)}
@@ -40,8 +40,8 @@ export default function List1({ content }: any) {
                   {entry.preheading && (
                     <Preheading data={entry.preheading}></Preheading>
                   )}
-                  <h2>{entry.title}</h2>
-                  <p className="mb-12">{entry.blurb}</p>
+                  <h2 className="heading-05">{entry.title}</h2>
+                  <p className="mb-12 paragraph-03">{entry.blurb}</p>
                   {entry.buttonLinks &&
                     entry.buttonLinks.map((button: any) => {
                       return (

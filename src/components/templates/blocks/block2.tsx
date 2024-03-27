@@ -7,9 +7,9 @@ export default function Block2({ content }: any) {
     <section id="block-2" className="template">
       <div className="max-w-screen-xl mx-auto text-center">
         <Preheading data={data.preheading}></Preheading>
-        <h2 className="max-w-5xl mx-auto">{data.heading}</h2>
-        <p className="max-w-3xl mx-auto">{data.blurb1}</p>
-        <p className="max-w-3xl mx-auto mb-8">{data.blurb2}</p>
+        <h2 className="heading-05 max-w-5xl mx-auto">{data.heading}</h2>
+        <p className="paragraph-03 max-w-3xl mx-auto">{data.blurb1}</p>
+        <p className="paragraph-03 max-w-3xl mx-auto mb-8">{data.blurb2}</p>
         {data.buttonLinks &&
           data.buttonLinks.map((button: any) => {
             return (

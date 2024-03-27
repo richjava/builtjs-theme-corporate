@@ -17,13 +17,13 @@ export default function Cards4({ content }: any) {
             collection.map((entry: any, i: number) => (
               <div
                 key={i}
-                className="p-8 bg-gray-100 rounded-lg dark:bg-gray-700"
+                className="p-8 bg-secondary rounded-corner-03 dark:bg-dark-02"
               >
                 <Preheading
                   data={entry.preheading}
                 ></Preheading>
-                <h3 className="mb-4">{entry.title}</h3>
-                <p className="mb-10">{entry.blurb}</p>
+                <h3 className="heading-04 mb-4">{entry.title}</h3>
+                <p className="paragraph-03 mb-10">{entry.blurb}</p>
                 {entry.buttonLinks &&
                   entry.buttonLinks.map((button: any) => {
                     return (

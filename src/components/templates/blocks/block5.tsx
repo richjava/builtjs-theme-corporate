@@ -9,11 +9,11 @@ export default function Block5({ content }: any) {
         <div className="grid grid-cols-1 gap-x-6 md:grid-cols-2">
           <div>
             <Preheading data={data.preheading}></Preheading>
-            <h2>{data.heading}</h2>
+            <h2 className="heading-05">{data.heading}</h2>
           </div>
           <div>
-            <p>{data.blurb1}</p>
-            <p className="mb-8">{data.blurb2}</p>
+            <p className="paragraph-03">{data.blurb1}</p>
+            <p className="paragraph-03 mb-8">{data.blurb2}</p>
             {data.buttonLinks &&
               data.buttonLinks.map((button: any) => {
                 return (

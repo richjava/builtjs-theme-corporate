@@ -8,15 +8,15 @@ export default function ProfileArticle1({ content }:any) {
 
   let profile = author ? author.profile : null;
   return (
-    <article id="profile-article1" className="template">
+    <article id="profile-article1" className="max-w-4xl mx-auto template">
       {author && (
-        <div className="max-w-screen-xl mx-auto relative">
-          <header className="max-w-4xl mx-auto">
+        <div className="relative">
+          <header>
             <span className={`preheading blank left`}>
               {profile?.position}
             </span>
             <div className="flex items-center">
-              <h1 className="mb-10">{author.fullName}</h1>
+              <h1 className="mb-10 heading-06">{author.fullName}</h1>
             </div>
           </header>
           {profile.profileImage && <div className="relative mb-20">

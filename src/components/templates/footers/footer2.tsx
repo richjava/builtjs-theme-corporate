@@ -14,7 +14,7 @@ export default function Footer2({ content }: any) {
 
   return (
     <footer id="footer-2" className="template">
-      <div className="px-4 pt-10 pb-4 border-t border-gray-200 dark:border-gray-700">
+      <div className="px-4 pt-10 pb-4 border-t border-light-03 dark:border-dark-02">
         <div className="max-w-screen-xl mx-auto">
           <div className="grid items-center justify-between grid-cols-1 gap-x-10 lg:grid-cols-2">
             <ul className="flex flex-wrap items-center justify-center mb-12 lg:justify-start">
@@ -22,7 +22,7 @@ export default function Footer2({ content }: any) {
                 <li key={i}>
                   <a
                     href={menuItem.url}
-                    className="flex px-3 py-2 text-gray-600 transition duration-200 ease-in-out dark:hover:text-white dark:text-gray-300 hover:text-gray-900"
+                    className="flex px-3 py-2 text-gray-600 transition duration-200 ease-in-out dark:hover:text-white dark:text-light-02 hover:text-dark-04"
                   >
                     {menuItem.label}
                   </a>

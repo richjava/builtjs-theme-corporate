@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React from "react";
 import { useState, useEffect } from "react";
 
@@ -78,7 +79,7 @@ export default function TemplateMenuBtn({ router }: any) {
         onClick={toggle}
       >
         <svg
-          className="text-white stroke-current transition duration-200 dark:text-black"
+          className="text-white transition duration-200 stroke-current dark:text-black"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           height="20"
@@ -101,10 +102,6 @@ export default function TemplateMenuBtn({ router }: any) {
             z-index: 50;
             bottom: 25px;
             right: 25px;
-          }
-          #templates {
-            bottom: 0px;
-            right: 60px;
           }
           input[type="radio"]:checked + label {
             color: #71717a;

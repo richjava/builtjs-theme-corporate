@@ -34,7 +34,7 @@ export default function ProfileCards1({ content }: any) {
                     />
                   </div>
                 </Link>
-                <div className="p-6 px-8 border border-t-0 border-gray-200 rounded-b-lg dark:border-gray-700">
+                <div className="p-6 px-8 border border-t-0 rounded-b-lg border-light-03 dark:border-dark-02">
                   <span className={`preheading blank left`}>
                     {author.position}
                   </span>
@@ -42,12 +42,13 @@ export default function ProfileCards1({ content }: any) {
                     className="no-underline"
                     href={`/${collectionSlug(author)}/${entrySlug(author)}`}
                   >
-                    <h3 className="mb-4 hover:text-gray-700 dark:hover:text-gray-200">
+                    <h3 className="mb-4 heading-04 hover:text-dark-02 dark:hover:text-light-03">
                       {author.fullName}
                     </h3>
                   </Link>
-                  <p>{author?.profile?.excerpt}</p>
+                  <p className="paragraph-03">{author?.profile?.excerpt}</p>
                   <Link
+                    className="dark:text-light-04"
                     href={`/${collectionSlug(author)}/${entrySlug(author)}`}
                   >
                     Read More

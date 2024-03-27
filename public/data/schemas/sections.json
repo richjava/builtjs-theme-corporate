@@ -290,8 +290,8 @@
         }
       }
     },
-    "authorArticle": {
-      "name": "authorArticle",
+    "authorArticleLanding": {
+      "name": "authorArticleLanding",
       "category": "sections",
       "fields": {}
     }

@@ -13,8 +13,8 @@ export default function ContextualLink({ data }:any) {
           alt={entrySlug(data)}
         />
       <div className="ml-4">
-        <p>{data.text}</p>
-        <Link href={data.url}>
+        <p className="paragraph-03">{data.text}</p>
+        <Link className="dark:text-light-04" href={data.url}>
           {data.label}
         </Link>
       </div>

@@ -2,14 +2,13 @@ import { ButtonLink } from "@/components/elements";
 
 export default function Banner2({ content }:any) {
   if (!content) return <></>;
-  let { data=null, variants=null } = {...content};
-  const backgroundColor = variants && variants.backgroundColor ? `bg-${variants.backgroundColor}` : "";
+  let { data=null } = {...content};
   return (
-    <section id="banner-2" className={`template p-0 ${backgroundColor}`}>
-      <div className="px-4 py-20 bg-gray-100 dark:bg-gray-700">
+    <section id="banner-2" className="template">
+      <div className="px-4 py-20 bg-primary dark:bg-dark-02">
         <div className="mx-auto max-w-screen-lg">
-          <h2>{data.heading}</h2>
-          <p className="max-w-xl mb-12 text-lg">{data.blurb}</p>
+          <h2 className="heading-05">{data.heading}</h2>
+          <p className="paragraph-03 max-w-xl mb-12">{data.blurb}</p>
           {data.buttonLinks &&
             data.buttonLinks.map((button:any) => {
               return <ButtonLink key={button.type} data={button}></ButtonLink>;

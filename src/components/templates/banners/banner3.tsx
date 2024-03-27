@@ -2,19 +2,15 @@ import { ButtonLink } from "@/components/elements";
 
 export default function Banner3({ content }: any) {
   if (!content) return <></>;
-  let { data = null, variants = null } = { ...content };
-  const backgroundColor =
-    variants && variants.backgroundColor
-      ? `bg-${variants.backgroundColor}`
-      : "";
+  let { data = null } = { ...content };
   return (
-    <section id="banner-3" className={`template p-0 ${backgroundColor}`}>
-      <div className="px-4 py-20 bg-gray-100 dark:bg-gray-700">
+    <section id="banner-3" className="template">
+      <div className="px-4 py-20 bg-primary dark:bg-dark-02">
         <div className="mx-auto max-w-screen-lg">
           <div className="items-center grid grid-cols-1 gap-x-6 md:grid-cols-4">
             <div className="col-span-3">
-              <h2>{data.heading}</h2>
-              <p className="max-w-xl mb-12 text-lg md:mb-0">
+              <h2 className="heading-05">{data.heading}</h2>
+              <p className="paragraph-03 max-w-xl mb-12 md:mb-0">
                 {data.blurb}
               </p>
             </div>

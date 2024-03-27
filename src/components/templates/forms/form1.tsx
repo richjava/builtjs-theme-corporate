@@ -20,8 +20,8 @@ export default function Form1({ content }: any) {
         <div className="items-center grid grid-cols-1 gap-x-12 gap-y-16 lg:grid-cols-2">
           <div>
             <Preheading data={data.preheading}></Preheading>
-            <h1>{data.heading}</h1>
-            <p className="max-w-xl mb-12 text-lg">{data.blurb}</p>
+            <h1 className="heading-06">{data.heading}</h1>
+            <p className="paragraph-03 max-w-xl mb-12">{data.blurb}</p>
             <div className="mb-16 grid grid-cols-1 gap-y-12">
               {data.contextualLinks.map(
                 (contextualLink: any, i: number) => {

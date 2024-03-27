@@ -10,6 +10,7 @@
       "defaultTemplate": {
         "name": "header1"
       },
+      "position": "start",
       "collections": {
         "primaryMenuItem": {}
       }
@@ -24,6 +25,7 @@
       "defaultTemplate": {
         "name": "footer1"
       },
+      "position": "end",
       "collections": {
         "primaryMenuItem": {},
         "socialLink": {}
@@ -170,9 +172,9 @@
       "name": "team",
       "title": "Team",
       "description": "An informational section about the people in the company.",
-      "templates": ["profile-cards1"],
+      "templates": ["profileCards1"],
       "defaultTemplate": {
-        "name": "profile-cards1"
+        "name": "profileCards1"
       },
       "data": {
         "heading": "Lorem ipsum dolor sit amet",
@@ -374,12 +376,12 @@
       }
     },
     {
-      "name": "authorArticle",
-      "title": "Author Article",
+      "name": "authorArticleLanding",
+      "title": "Author Article Landing",
       "description": "The author detail page.",
-      "templates": ["profile-article1"],
+      "templates": ["profileArticle1"],
       "defaultTemplate": {
-        "name": "profile-article1"
+        "name": "profileArticle1"
       }
     },
     {

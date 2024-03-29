@@ -13,22 +13,28 @@ module.exports = {
     colors: {
       ...colors,
       ...{
-        "transparent": "transparent",
+        //Primary and secondary colors
+        "primary": "#e5e7eb",
+        "secondary": "#f3f4f6",
+
+        // Accent colors (uses hsl values defined in styles/globals.css)
+        "accent": "hsl(var(--hue-accent),var(--saturation-accent),var(--lightness-accent))",
+        "accent-hover": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) + 10%))",
+        "accent-active": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) - 10%))",
+        "accent-disabled": "hsl(var(--hue-accent),var(--saturation-accent),calc(var(--lightness-accent) + 30%))",
+
+        // Light and dark colors
+        "dark-01": "#4b5563",
+        "dark-02": "#374151",
+        "dark-03": "#1f2937",
+        "dark-04": "#111827",
+        "light-01": "#9ca3af",
+        "light-02": "#d1d5db",
+        "light-03": "#d1d5db",
+        "light-04": "#f3f4f6",
+
+        // Other colors
         "current": "currentColor",
-        "primary": "var(--color-primary)",
-        "secondary": "var(--color-secondary)",
-        "accent": "var(--color-accent)",
-        "accent-hover": "var(--color-accent-hover)",
-        "accent-active": "var(--color-accent-active)",
-        "accent-disabled": "var(--color-accent-disabled)",
-        "dark-01": "var(--color-dark-01)",
-        "dark-02": "var(--color-dark-02)",
-        "dark-03": "var(--color-dark-03)",
-        "dark-04": "var(--color-dark-04)",
-        "light-01": "var(--color-light-01)",
-        "light-02": "var(--color-light-02)",
-        "light-03": "var(--color-light-03)",
-        "light-04": "var(--color-light-04)",
       },
     },
     extend: {

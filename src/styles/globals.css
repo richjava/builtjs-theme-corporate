@@ -1,49 +1,8 @@
 :root {
-  /* Define primary color */
-  --color-primary: #e5e7eb; 
-
-  /* Define secondary color */
-  --color-secondary: #f3f4f6; 
-
-  /* Define accent color */
+  /* Accent color hsl values used in tailwind.config file */
   --hue-accent: 220;
   --saturation-accent: 9%;
   --lightness-accent: 46%;
-  --color-accent: hsl(var(--hue-accent),var(--saturation-accent),var(--lightness-accent)); 
-    
-  /* Increase lightness by 10% */
-  --color-accent-hover: hsl(
-    var(--hue-accent),
-    var(--saturation-accent),
-    calc(var(--lightness-accent) + 10%)
-  );
-
-  /* Active state decreases lightness by 10% */
-  --color-accent-active: hsl(
-    var(--hue-accent),
-    var(--saturation-accent),
-    calc(var(--lightness-accent) - 10%)
-  );
-
-  /* Disabled state increases lightness by 30% */
-  --color-accent-disabled: hsl(
-    var(--hue-accent),
-    var(--saturation-accent),
-    calc(var(--lightness-accent) + 30%)
-  );
-
-  /* Define dark colors */
-
-  --color-dark-01: #4b5563; 
-  --color-dark-02: #374151; 
-  --color-dark-03: #1f2937; 
-  --color-dark-04: #111827; 
-
-  /* Define light color */
-  --color-light-01: #9ca3af;
-  --color-light-02: #d1d5db;
-  --color-light-03: #e5e7eb;
-  --color-light-04: #f3f4f6;
 }
 
 /* Display styles */

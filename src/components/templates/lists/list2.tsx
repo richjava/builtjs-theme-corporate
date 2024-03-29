@@ -47,7 +47,7 @@ export default function List2({ content, router }: any) {
                       </h3>
                     </Link>
                     <p className="paragraph-03">{entry.blurb}</p>
-                    <Link
+                    <Link className="text-dark-01 dark:text-light-03"
                       href={`/${collectionSlug(entry)}/${entrySlug(entry)}`}
                     >
                       Read Article

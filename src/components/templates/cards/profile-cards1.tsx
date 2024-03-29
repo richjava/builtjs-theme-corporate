@@ -48,7 +48,7 @@ export default function ProfileCards1({ content }: any) {
                   </Link>
                   <p className="paragraph-03">{author?.profile?.excerpt}</p>
                   <Link
-                    className="dark:text-light-04"
+                     className="text-dark-01 dark:text-light-03"
                     href={`/${collectionSlug(author)}/${entrySlug(author)}`}
                   >
                     Read More

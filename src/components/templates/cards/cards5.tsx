@@ -38,19 +38,19 @@ export default function Cards5({ content }: any) {
                     />
                   </div>
                 </Link>
-                <div className="p-8 border border-t-0 border-light-03 rounded-b-lg dark:border-dark-02">
+                <div className="p-8 border border-t-0 rounded-b-lg border-light-03 dark:border-dark-02">
                   <Link
                     className="no-underline"
                     href={`/${collectionSlug(collectionName)}/${entrySlug(
                       entry
                     )}`}
                   >
-                    <h3 className="heading-04 mb-4 hover:text-dark-02 dark:hover:text-light-04">
+                    <h3 className="mb-4 heading-04 hover:text-dark-02 dark:hover:text-light-04">
                       {entry.title}
                     </h3>
                   </Link>
                   <p className="paragraph-03">{entry.blurb}</p>
-                  <Link
+                  <Link className="text-dark-01 dark:text-light-03"
                     href={`/${collectionSlug(collectionName)}/${entrySlug(
                       entry
                     )}`}

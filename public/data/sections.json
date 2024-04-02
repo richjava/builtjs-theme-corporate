@@ -3,7 +3,6 @@
     {
       "name": "header",
       "title": "Header",
-      "category": "layout",
       "type": "layout",
       "description": "The header contains the company logo, main site navigation and often a call-to-action button.",
       "templates": ["header1", "header2"],
@@ -18,7 +17,6 @@
     {
       "name": "footer",
       "title": "Footer",
-      "category": "layout",
       "type": "layout",
       "description": "The footer contains secondary site navigation.",
       "templates": ["footer1", "footer2"],
@@ -38,7 +36,6 @@
       "defaultTemplate": {
         "name": "seo"
       },
-      "category": "head",
       "type": "head",
       "data": {
         "pageTitle": "Home | Corporate Tailwind Built.JS Theme",
@@ -183,9 +180,11 @@
       "collections": {
         "author": {
           "config": {
-            "populate": [{
-              "name": "profile"
-            }],
+            "populate": [
+              {
+                "name": "profile"
+              }
+            ],
             "limit": 3
           },
           "article": {
@@ -201,7 +200,6 @@
       "defaultTemplate": {
         "name": "seo"
       },
-      "category": "head",
       "type": "head",
       "data": {
         "pageTitle": "Services | Corporate Tailwind Built.JS Theme",
@@ -295,7 +293,6 @@
       "defaultTemplate": {
         "name": "seo"
       },
-      "category": "head",
       "type": "head",
       "data": {
         "pageTitle": "About | Corporate Tailwind Built.JS Theme",
@@ -391,7 +388,6 @@
       "defaultTemplate": {
         "name": "seo"
       },
-      "category": "head",
       "type": "head",
       "data": {
         "pageTitle": "Contact | Corporate Tailwind Built.JS Theme",
@@ -443,12 +439,12 @@
           },
           {
             "icon": {
-                  "name": "mail",
-                  "path": "/images/theme/icons",
-                  "ext": "svg",
-                  "url": "/images/theme/icons/mail.svg",
-                  "width": 24,
-                  "height": 26
+              "name": "mail",
+              "path": "/images/theme/icons",
+              "ext": "svg",
+              "url": "/images/theme/icons/mail.svg",
+              "width": 24,
+              "height": 26
             },
             "text": "General Enquiries",
             "label": "info@companyname.co.nz",

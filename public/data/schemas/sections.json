@@ -2,17 +2,14 @@
   "sections": {
     "header": {
       "name": "header",
-      "category": "layout",
       "fields": {}
     },
     "footer": {
       "name": "footer",
-      "category": "layout",
       "fields": {}
     },
     "homeSeo": {
       "name": "homeSeo",
-      "category": "seo",
       "fields": {
         "pageTitle": {
           "type": "string"
@@ -33,7 +30,6 @@
     },
     "contactSeo": {
       "name": "contactSeo",
-      "category": "seo",
       "fields": {
         "pageTitle": {
           "type": "string"
@@ -54,7 +50,6 @@
     },
     "aboutSeo": {
       "name": "aboutSeo",
-      "category": "seo",
       "fields": {
         "pageTitle": {
           "type": "string"
@@ -75,7 +70,6 @@
     },
     "servicesSeo": {
       "name": "servicesSeo",
-      "category": "seo",
       "fields": {
         "pageTitle": {
           "type": "string"
@@ -96,7 +90,6 @@
     },
     "mainLanding": {
       "name": "mainLanding",
-      "category": "sections",
       "fields": {
         "preheading": {
           "type": "element",
@@ -119,7 +112,6 @@
     },
     "contactLanding": {
       "name": "contactLanding",
-      "category": "forms",
       "fields": {
         "preheading": {
           "type": "element",
@@ -149,12 +141,10 @@
     },
     "featuresList": {
       "name": "featuresList",
-      "category": "sections",
       "fields": {}
     },
     "contactTeaser": {
       "name": "contactTeaser",
-      "category": "sections",
       "fields": {
         "preheading": {
           "type": "element",
@@ -174,7 +164,6 @@
     },
     "aboutTeaser": {
       "name": "aboutTeaser",
-      "category": "sections",
       "fields": {
         "preheading": {
           "type": "element",
@@ -193,7 +182,6 @@
     },
     "team": {
       "name": "team",
-      "category": "sections",
       "fields": {
         "preheading": {
           "type": "element",
@@ -212,12 +200,10 @@
     },
     "benefitsList": {
       "name": "benefitsList",
-      "category": "sections",
       "fields": {}
     },
     "servicesLanding": {
       "name": "servicesLanding",
-      "category": "sections",
       "fields": {
         "preheading": {
           "type": "element",
@@ -233,7 +219,6 @@
     },
     "servicesBlock": {
       "name": "servicesBlock",
-      "category": "sections",
       "fields": {
         "preheading": {
           "type": "element",
@@ -256,7 +241,6 @@
     },
     "aboutLanding": {
       "name": "aboutLanding",
-      "category": "sections",
       "fields": {
         "preheading": {
           "type": "element",
@@ -279,7 +263,6 @@
     },
     "aboutText": {
       "name": "aboutText",
-      "category": "sections",
       "fields": {
         "heading": { "type": "string" },
         "blurb1": {
@@ -292,7 +275,6 @@
     },
     "authorArticleLanding": {
       "name": "authorArticleLanding",
-      "category": "sections",
       "fields": {}
     }
   }

@@ -2,7 +2,6 @@
   "elements": [
     {
       "name": "buttonLink",
-      "category": "elements",
       "title": "Button Link",
       "fields": {
         "slug": {
@@ -23,7 +22,6 @@
     },
     {
       "name": "button",
-      "category": "elements",
       "title": "Button",
       "fields": {
         "slug": {
@@ -41,7 +39,6 @@
     },
     {
       "name": "contextualLink",
-      "category": "elements",
       "displayName": "Contextual Link",
       "fields": {
         "slug": {
@@ -65,7 +62,6 @@
     },
     {
       "name": "field",
-      "category": "elements",
       "title": "Field",
       "fields": {
         "slug": {
@@ -86,7 +82,6 @@
     },
     {
       "name": "preheading",
-      "category": "elements",
       "title": "Preheading",
       "fields": {
         "slug": {

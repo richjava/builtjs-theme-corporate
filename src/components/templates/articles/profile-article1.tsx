@@ -8,9 +8,9 @@ export default function ProfileArticle1({ content }:any) {
 
   let profile = author ? author.profile : null;
   return (
-    <article id="profile-article1" className="max-w-4xl mx-auto template">
+    <article id="profile-article1" className="template">
       {author && (
-        <div className="relative">
+        <div className="relative max-w-4xl mx-auto" >
           <header>
             <span className={`preheading blank left`}>
               {profile?.position}

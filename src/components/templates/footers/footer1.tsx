@@ -14,13 +14,13 @@ export default function Footer1({content}:any) {
 
   return (
     <footer id="footer1" className="template">
-      <div className="px-4 pt-10 pb-4 border-t border-light-03 dark:border-dark-02">
+      <div className="px-4 pt-10 pb-4 border-t border-gray-300 dark:border-gray-700">
         <ul className="flex flex-wrap items-center justify-center mb-12">
           {primaryMenuItems.map((menuItem: any, i: number) => (
             <li key={i}>
               <a
                 href={menuItem.url}
-                className="flex px-3 py-2 text-gray-600 transition duration-200 ease-in-out dark:hover:text-white dark:text-light-02 hover:text-dark-04"
+                className="flex px-3 py-2 text-gray-600 transition duration-200 ease-in-out dark:hover:text-white dark:text-gray-200 hover:text-gray-900"
               >
                 {menuItem.label}
               </a>

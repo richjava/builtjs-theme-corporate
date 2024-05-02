@@ -25,7 +25,7 @@ export default function List1({ content }: any) {
                   <div className="relative">
                     {entry.image && (
                       <Image
-                        className="bg-secondary rounded-corner-03"
+                        className="bg-secondary rounded-md"
                         src={urlForImage(entry.image)}
                         width={widthForImage(entry.image)}
                         height={heightForImage(entry.image)}
@@ -40,8 +40,8 @@ export default function List1({ content }: any) {
                   {entry.preheading && (
                     <Preheading data={entry.preheading}></Preheading>
                   )}
-                  <h2 className="heading-05">{entry.title}</h2>
-                  <p className="mb-12 paragraph-03">{entry.blurb}</p>
+                  <h2 className="heading-xl">{entry.title}</h2>
+                  <p className="mb-12">{entry.blurb}</p>
                   {entry.buttonLinks &&
                     entry.buttonLinks.map((button: any) => {
                       return (

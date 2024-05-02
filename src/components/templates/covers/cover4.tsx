@@ -12,8 +12,8 @@ export default function Cover4({ content }: any) {
         <div className="w-full max-w-screen-xl px-4 py-20 mx-auto ">
           <div className="pb-24 text-center">
             <Preheading data={data.preheading}></Preheading>
-            <h1 className="max-w-5xl mx-auto display-03">{data.heading}</h1>
-            <p className="paragraph-03 max-w-xl mx-auto mb-12">{data.blurb}</p>
+            <h1 className="max-w-5xl mx-auto display-md">{data.heading}</h1>
+            <p className="max-w-xl mx-auto mb-12">{data.blurb}</p>
             {data.buttonLinks &&
               data.buttonLinks.map((button: any) => {
                 return (

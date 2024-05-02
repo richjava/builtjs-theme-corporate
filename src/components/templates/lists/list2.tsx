@@ -27,7 +27,7 @@ export default function List2({ content, router }: any) {
                       <div className="relative mb-6 transition-opacity h-96 lg:h-56 hover:opacity-80">
                         {entry.image && (
                           <Image
-                            className="bg-secondaryrounded-corner-03"
+                            className="bg-secondaryrounded-md"
                             src={urlForImage(entry.image)}
                             fill
                             style={{objectFit:"cover"}}
@@ -42,12 +42,12 @@ export default function List2({ content, router }: any) {
                       className="no-underline"
                       href={`/${collectionSlug(entry)}/${entrySlug(entry)}`}
                     >
-                      <h3 className="mb-2 heading-04 hover:text-dark-02 dark:hover:text-light-03">
+                      <h3 className="mb-2 heading-lg hover:text-gray-700 dark:hover:text-gray-300">
                         {entry.title}
                       </h3>
                     </Link>
-                    <p className="paragraph-03">{entry.blurb}</p>
-                    <Link className="text-dark-01 dark:text-light-03"
+                    <p>{entry.blurb}</p>
+                    <Link className="text-gray-600 dark:text-gray-300"
                       href={`/${collectionSlug(entry)}/${entrySlug(entry)}`}
                     >
                       Read Article
@@ -59,7 +59,7 @@ export default function List2({ content, router }: any) {
         </div>
         {!collection.length && (
           <div>
-            <p className="paragraph-03">No posts</p>
+            <p>No posts</p>
           </div>
         )}
       </div>

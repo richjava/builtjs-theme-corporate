@@ -19,8 +19,8 @@ export default function Form1({ content }: any) {
       <div className="max-w-screen-xl mx-auto">
         <div className="mb-20 text-center">
           <Preheading data={data.preheading}></Preheading>
-          <h1 className="heading-06">{data.heading}</h1>
-          <p className="paragraph-03 max-w-xl mx-auto">{data.blurb}</p>
+          <h1 className="heading-xxl">{data.heading}</h1>
+          <p className="max-w-xl mx-auto">{data.blurb}</p>
         </div>
         <div className="grid grid-cols-1 gap-x-12 gap-y-16 lg:grid-cols-2">
           <div>

@@ -5,9 +5,9 @@ export default function Banner4({ content }: any) {
   let { data = null } = { ...content };
   return (
     <section id="banner-4" className="template">
-      <div className="mx-auto max-w-screen-lg">
-        <div className="px-4 py-20 text-center bg-primary rounded-corner-03 dark:bg-dark-02">
-          <h2 className="heading-05">{data.heading}</h2>
+      <div className="max-w-screen-lg mx-auto">
+        <div className="px-4 py-20 text-center bg-primary rounded-md dark:bg-gray-700">
+          <h2 className="heading-xl">{data.heading}</h2>
           <p className="max-w-xl mx-auto mb-12">{data.blurb}</p>
           {data.buttonLinks &&
             data.buttonLinks.map((button: any) => {

@@ -21,8 +21,8 @@ export default function Cover1({ content }: any) {
           </div>
           <div className="px-4 pt-10 pb-20 lg:py-40">
             <Preheading data={data.preheading}></Preheading>
-            <h1 className="display-04">{data.heading}</h1>
-            <p className="mb-12 paragraph-03">{data.blurb}</p>
+            <h1 className="display-lg">{data.heading}</h1>
+            <p className="mb-12">{data.blurb}</p>
             {data.buttonLinks &&
               data.buttonLinks.map((button: any) => {
                 return (

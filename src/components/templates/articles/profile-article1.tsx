@@ -16,7 +16,7 @@ export default function ProfileArticle1({ content }:any) {
               {profile?.position}
             </span>
             <div className="flex items-center">
-              <h1 className="mb-10 heading-06">{author.fullName}</h1>
+              <h1 className="mb-10 heading-xxl">{author.fullName}</h1>
             </div>
           </header>
           {profile.profileImage && <div className="relative mb-20">

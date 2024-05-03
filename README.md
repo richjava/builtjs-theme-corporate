@@ -2,6 +2,8 @@
 
 A [Built.js](https://builtjs.com) theme for small business websites with basic Tailwind styling.
 
+Demo: [https://builtjs-theme-corporate.vercel.app/](https://builtjs-theme-corporate.vercel.app/)
+
 ### Installation
 1. Install dependencies:
 ```

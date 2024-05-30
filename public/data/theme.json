@@ -10,26 +10,6 @@
     "gitProvider": "github",
     "repoUrl": "https://github.com/richjava/builtjs-theme-corporate",
     "demoUrl": "https://builtjs-theme-corporate.vercel.app",
-    "modules": [
-      {
-        "name": "main"
-      },
-      {
-        "name": "services"
-      },
-      {
-        "name": "features"
-      },
-      {
-        "name": "Benefits"
-      },
-      {
-        "name": "about"
-      },
-      {
-        "name": "contact"
-      }
-    ],
     "config": {
       "node": {
         "dependencies": [

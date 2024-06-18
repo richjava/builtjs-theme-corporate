@@ -2,7 +2,7 @@
   "data": [
     {
       "_type": "social-link",
-      "title": "Facebook",
+      "heading": "Facebook",
       "icon": {
         "name": "facebook",
         "path": "/images/theme/icons",
@@ -15,7 +15,7 @@
     },
     {
       "_type": "social-link",
-      "title": "Twitter",
+      "heading": "Twitter",
       "icon": {
         "name": "twitter",
         "path": "/images/theme/icons",
@@ -41,7 +41,7 @@
     },
     {
       "_type": "social-link",
-      "title": "Youtube",
+      "heading": "Youtube",
       "icon": {
         "name": "youtube",
         "path": "/images/theme/icons",

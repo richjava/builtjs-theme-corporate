@@ -5,7 +5,7 @@ import TemplateMenuBtn from "./components/template-menu-btn";
 import { setupCrumbs } from ".";
 import { getComponents } from "./utils";
 
-const { transformPage } = require("@builtjs/theme");
+const {transformPage, fetchEntry, fetchEntries} = require('@builtjs/theme');
 
 const Page = ({ config }:any) => {
   const router = useRouter();
@@ -52,7 +52,10 @@ const Page = ({ config }:any) => {
               sectionComps.map((Section:any, i:number) => {
                 return (
                   page.sections[i] && (
-                    <Section key={i} content={page.sections[i].content} />
+                    <Section 
+                    key={i} 
+                    api={page.sections[i].template.doc.type === 'dynamic' ? {fetchEntry, fetchEntries} : null} 
+                    content={page.sections[i].content} />
                   )
                 );
               })}

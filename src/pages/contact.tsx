@@ -7,7 +7,7 @@ import { pages } from "../lib/constants";
 export default withRouter(Page);
 
 export const getStaticProps: GetStaticProps = async () => {
-  const config = await getConfig(pages.CONTACT);
+  const config = await getConfig({pageName: pages.CONTACT});
   return {
     props: { config }
   };

@@ -22,7 +22,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context:any) => {
   const { slug } = context.params;
-  const config = await getConfig(slug, pageTypes.TEMPLATE);
+  const config = await getConfig({pageName: slug, type: pageTypes.TEMPLATE});
   config.params = context.params;
   return {
     props: { config }
